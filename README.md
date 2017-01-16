@@ -1,59 +1,22 @@
 # The Art of Data Science
 
-## INTRO: “I think therefor, I am"
-- What is data science?
-- What type of questions can be answered?
-- Frame/Acquire/Refine/Explore/Model/Insight framework
+- [Curriculum](curriculum.md) - The scope of the workshop.
+- [Installation](installation.md) - To get yourself ready for the workshop.
+- [Pre-requisites](pre-requisites.md) - To get yourself ready for the workshop.
+- [Schedule](schedule.md) - The broad schedule for the workshop
+- [Overview](overview.md) - The overview presentation for the workshop.
+- [Intro to Art of Data Science](/notebook/Intro-Art-of-Data-Science.ipynb) - The overall introduction to the workshop.
+- [Intro to Data Structures in Python](/notebook/Intro-Python.ipynb) - Get started with Python.
 
-## FRAME - “Framing the problem is often far more essential than its solution”
-- How to frame a data science problem?
-- Learn the hypothesis-driven approach?
-- How do you start - question driven, dataset driven or both?
-
-## ACQUIRE - “Data is the new oil”
-- Download from an internal system, client or other 3rd party
-- Extracted from a web-based API
-- Scraped from a website / pdfs
-- Gathered manually and recorded
-- Acquire data from a csv file or a database
-- Acquire data from a 3rd part client (e.g. twitter)
-
-## EXPLORE - “I don’t know, what I don’t know”
-- Why do visual exploration?
-- Understand Data Structure & Types
-- Grammar of Graphics and Basics of visualisation
-- Explore single variable graphs - (Quantitative, Categorical)
-- Explore dual variable graphs - (Q & Q, Q & C, C & C)
-- Explore multi-dimensional variable graphs
-
-## REFINE - “Data is messy”
-- Concept of Tidy Data - Why is it important?
-- Missing e.g. Check for missing or incomplete data
-- Quality e.g. Check for duplicates, accuracy, unusual data
-- Parse e.g. extract year from date
-- Merge e.g. first and surname for full name
-- Convert e.g. free text to coded value
-- Remove e.g. remove redundant data
-
-## TRANSFORM - “What is measured may not help answer what is required”
-- Aggregate e.g. rollup by year, cluster by area
-- Derive e.g. gender from title
-- Calculate e.g. percentages, proportion
-- Filter e.g. exclude based on location
-- Sample e.g. extract a representative data
-- Summary e.g. show summary stats like mean
-- Basic statistics: variance, standard deviation, co-variance, correlation
-
-## MODEL - “All models are wrong, Some of them are useful”
-- Introduction to Machine Learning
-- The power and limits of models
-- Tradeoff between Prediction Accuracy and Model Interpretability
-- Linear Regression
-- Logistic Regression
-- Assessing Model Accuracy
-
-## INSIGHT - “The goal is to turn data into insight”
-- Why do we need to communicate insight?
-- Types of communication - Exploration vs. Explanation
-- Explanation: Telling a story with data
-- Exploration: Building an interface for people to find stories
+Case Studies
+- [Case #1 - Peeling the Onion](/onion) - Price & Quantity of Onion across in India.
+    - [Frame the Problem](/onion/1-Frame-Onion.ipynb)
+    - [Acquire the Data](/onion/2-Acquire-Onion.ipynb)
+    - [Refine the Data](/onion/3-Refine-Onion.ipynb)
+    - [Transform the Data](/onion/3-Refine-Onion.ipynb)
+    - [Explore the Data](/onion/4-Explore-Onion.ipynb)
+    - [Model the Solution](/onion/5-Model-Onion.ipynb)
+    - [Insight Communication](/onion/6-Insight-onion.ipynb)
+- [Case #2 - Stars in Movies](/movies/Movies.ipynb) - Finding the star pairing in popular movies.
+- [Case #3 - Shining Diamonds](/diamonds/Diamonds.ipynb) - Price of Diamonds based on 4Cs (Carat, Colour, Cut and Clarity)
+- [Case #4 - Wine Selection](/wine/Wine.ipynb) - Selecting a good Red Wine to drink
