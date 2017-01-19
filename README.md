@@ -10,13 +10,13 @@
 
 Case Studies
 - [Case #1 - Peeling the Onion](/onion) - Price & Quantity of Onion across in India.
-    - [Frame the Problem](/onion/1-Frame-Onion.ipynb)
-    - [Acquire the Data](/onion/2-Acquire-Onion.ipynb)
-    - [Refine the Data](/onion/3-Refine-Onion.ipynb)
-    - [Transform the Data](/onion/3-Refine-Onion.ipynb)
-    - [Explore the Data](/onion/4-Explore-Onion.ipynb)
-    - [Model the Solution](/onion/5-Model-Onion.ipynb)
-    - [Insight Communication](/onion/6-Insight-onion.ipynb)
+    - [Frame the Problem](/onion/1-Frame.ipynb)
+    - [Acquire the Data](/onion/2-Acquire.ipynb)
+    - [Refine the Data](/onion/3-Refine.ipynb)
+    - [Transform the Data](/onion/3-Refine.ipynb)
+    - [Explore the Data](/onion/5-Explore.ipynb)
+    - [Model the Solution](/onion/6-Model.ipynb)
+    - [Insight Communication](/onion/7-Insight.ipynb)
 - [Case #2 - Stars in Movies](/movies/Movies.ipynb) - Finding the star pairing in popular movies.
 - [Case #3 - Shining Diamonds](/diamonds/Diamonds.ipynb) - Price of Diamonds based on 4Cs (Carat, Colour, Cut and Clarity)
 - [Case #4 - Wine Selection](/wine/Wine.ipynb) - Selecting a good Red Wine to drink
