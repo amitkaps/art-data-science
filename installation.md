@@ -18,6 +18,8 @@ Please note that installing Anaconda is the **recommended** option for doing the
 ## Post Anaconda Installation
 Please run the below commands from your command line interface
 
-```conda install seaborn```
-```conda config --add channels conda-forge```
-```conda install folium```
+```
+conda install seaborn
+conda install folium
+
+```
