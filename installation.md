@@ -20,6 +20,6 @@ Please run the below commands from your command line interface
 
 ```
 conda install seaborn
-conda install folium
+pip install folium
 
 ```
