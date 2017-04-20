@@ -1,0 +1,204 @@
+"name","model","price","type","engine","fuel","weight","clearance","bhp","rpm","mileage_city","mileage_highway","cylinders","seats","transmission_type","brand","gears","transmission","fuel_type"
+"Ashok Leyland Stile","Ashok Leyland Stile LE 8-STR (Diesel)",749990,"MPV",1461," Diesel"," 2000",180," 75 "," 3300",16.2,20.7," 4"," 8"," 5 Speed Manual","Ashok",5,"Manual",1
+"Aston Martin Rapide","Aston Martin Rapide LUXE (Petrol)",3.5e+07,"Sedan",5935," Petrol",NA,120," 350 "," 6000",11.83425,7," 4"," 4"," 6 Speed Automatic","Aston",6,"Automatic",0
+"Aston Martin Rapide S","Aston Martin Rapide S (Petrol)",4.4e+07,"Sedan",5935," Petrol"," 1990",110," 550 "," 6750",5.6,11.9," 12"," 4"," 6 Speed Manual","Aston",6,"Manual",0
+"Aston Martin V12 Vantage","Aston Martin V12 Vantage Coupe (Petrol)",3.5e+07,"Coupe",5935," Petrol",NA,120," 510 "," 6500",7,9," 12"," 2"," 6 Speed Manual","Aston",6,"Manual",0
+"Aston Martin V8 Vantage","Aston Martin V8 Vantage Coupe (Petrol)",13500000,"Coupe",4735," Petrol",NA,120," 313 "," 7000",5,8," 8"," 2"," 6 Speed Manual","Aston",6,"Manual",0
+"Aston Martin Vanquish","Aston Martin Vanquish V12 (Petrol)",38500000,"Sedan",5935," Petrol",NA,147," 564 "," 6750",4,8," 4"," 2"," 6 Speed Automatic","Aston",6,"Automatic",0
+"Audi A3 Cabriolet","Audi A3 Attraction 35 TDI (Diesel)",2295000,"Sedan",1968," Diesel"," 1890",NA," 143 "," 3500-4000",18.08,20.38," 4"," 5"," 6 Speed Automatic","Audi",6,"Automatic",1
+"Audi A4","Audi A4 2.0 TDI (Diesel)",2899000,"Sedan",1968," Diesel"," 2065",128," 241 "," 4000",11.83425,16.55," 4"," 5"," 7 Speed Automatic","Audi",7,"Automatic",1
+"Audi A6","Audi A6 2.0 TDI (Diesel)",4356000,"Sedan",1968," Diesel"," 2165",165," 174 "," 3750",11.83425,17.68," 4"," 5"," 8 Speed Automatic","Audi",8,"Automatic",1
+"Audi A7","Audi A7 Sportback 3.0 TDI (Diesel)",8588000,"Sedan",2967," Diesel"," 2395",160," 241.3 "," 4000",11.83425,14.4," 6"," 5"," 6 Speed Automatic","Audi",6,"Automatic",1
+"Audi A8 L","Audi A8 L 3.0 TDI quattro (Diesel)",10700000,"Sedan",2967," Diesel"," 2540",165," 247 "," 4000",11.83425,15.5," 6"," 4"," 8 Speed Automatic","Audi",8,"Automatic",1
+"Audi Q3","Audi Q3 30 TDI S Edition (Diesel)",2899000,"SUV",1968," Diesel"," 2030",170," 138.13 "," 4200",14.25,17.32," 4"," 5"," 6 Speed Manual","Audi",6,"Manual",1
+"Audi Q5","Audi Q5 2.0 TFSI Quattro (Petrol)",4539000,"SUV",1984," Petrol"," 2365",200," 221.27 "," 4500-6200",11.83425,11.81," 4"," 5"," 8 Speed Automatic","Audi",8,"Automatic",0
+"Audi Q7","Audi Q7 3.0 TFSI quattro (Petrol)",5577000,"SUV",2995," Petrol"," 2995",240," 329 "," 5500",11.83425,14," 6"," 6"," 8 Speed Automatic","Audi",8,"Automatic",0
+"Audi R8","Audi R8 4.2 FSI quattro (Petrol)",15991000,"Sedan",4163," Petrol"," 1885",160," 423.8 "," 7900",11.83425,8.06," 8"," 2"," 7 Speed Automatic","Audi",7,"Automatic",0
+"Audi RS5","Audi RS5 Coupe (Petrol)",10127000,"Coupe",4163," Petrol",NA,NA," 438 "," 8250",5.6,9," 8"," 5"," 7 Speed Automatic","Audi",7,"Automatic",0
+"Audi RS6","Audi RS6 Avant",13500000,"Luxury",3993," Petrol"," 2580",114," 552.5 "," 5700-6600",6.4,10.41," 8"," 5"," 8 Speed Automatic","Audi",8,"Automatic",0
+"Audi RS7","Audi RS7 Sportback (Petrol)",1.4e+07,"Sedan",3993," Petrol"," 2505",109," 560 "," 5700-6600",7.2,13.3," 8"," 4"," 8 Speed Automatic","Audi",8,"Automatic",0
+"Audi S6","Audi S6 4.0 TFSI (Petrol)",8995000,"Sedan",3993," Petrol",NA,125," 420 "," 5500",7,10.3," 8"," 5"," 7 Speed Automatic","Audi",7,"Automatic",0
+"Audi TT","Audi TT 45 TFSI (Petrol)",6034000,"Coupe",1984," Petrol"," 1735",135," 230 "," 4500-6200",5.7,8.3," 4"," 4"," 6 Speed Automatic","Audi",6,"Automatic",0
+"Bentley Continental Flying Spur","Bentley Continental Flying Spur W12 (Petrol)",3.1e+07,"Sedan",5998," Petrol",NA,142," 552 "," 6100",2,4," 12"," 5"," 8 Speed Automatic","Bentley",8,"Automatic",0
+"Bentley Continental GT","Bentley Continental GT (Petrol)",18700000,"Coupe",5998," Petrol",NA,142," 567 "," 6000",5.3,8.6," 12"," 5"," 8 Speed Automatic","Bentley",8,"Automatic",0
+"Bentley Continental GTC","Bentley Continental GTC Convertible (Petrol)",2.1e+07,"Sedan",5998," Petrol",NA,142," 567 "," 6000",5.5,8.5," 12"," 5"," 8 Speed Automatic","Bentley",8,"Automatic",0
+"Bentley Mulsanne","Bentley Mulsanne V8 (Petrol)",26900000,"Coupe",5998," Petrol",NA,142," 500 "," 6000",6.2,9.5," 8"," 5"," 8 Speed Automatic","Bentley",8,"Automatic",0
+"BMW 1 Series","BMW 1 Series",2e+06,"Sedan",1995," Diesel",NA,157," 143 "," 5000",11.83425,20.58," 4",NA," 8 Speed Automatic","BMW",8,"Automatic",1
+"BMW 3 Series","BMW 3 Series 320d (Diesel)",3340000,"Sedan",1995," Diesel",NA,140," 184 "," 4000",14.44,18.88," 4"," 5"," 8 Speed Automatic","BMW",8,"Automatic",1
+"BMW 3 Series GT","BMW 3 Series GT 320d Sport Line(Diesel)",3990000,"Sedan",1995," Diesel",NA,165," 184 "," 4000",15.54,19.59," 4"," 5"," 8 Speed Automatic","BMW",8,"Automatic",1
+"BMW 5 Series","BMW 5 Series 520 Luxury Line (Diesel)",4890000,"Sedan",1995," Diesel",NA,158," 184 "," 5000",8.4,11.5," 4"," 5"," 8 Speed Automatic","BMW",8,"Automatic",1
+"BMW 5 Series GT","BMW 5 Series GT 530d LE (Diesel)",8870000,"Sedan",2993,NA,NA,131," 245 "," 4000",11.83425,15.3514948453608,NA,NA,NA,"BMW",4,"Manual",0
+"BMW 6 Series","BMW 6 Series Gran Coupe 640d (Diesel)",11490000,"Coupe",2993," Diesel"," 2410",124," 313 "," 4400",14.54,17.54," 6"," 4"," 8 Speed Automatic","BMW",8,"Automatic",1
+"BMW 7 Series","BMW 7 Series 730Ld (Diesel)",10290000,"Sedan",2993," Diesel",NA,142," 258 "," 4000",11.83425,12," 6"," 5"," 8 Speed Automatic","BMW",8,"Automatic",1
+"BMW i8","BMW i8 (Petrol)",22900000,"Coupe",1499," Petrol"," 1490",117," 228 bhp "," 5800 RPM",28,29," 3"," 2"," 6 Speed Automatic","BMW",6,"Automatic",0
+"BMW M3","BMW M3 Sedan (Petrol)",11980000,"Sedan",2979," Petrol"," 2100",NA," 431 "," 5500-7300",7.32,10.75," 6"," 5"," 7 Speed Automatic","BMW",7,"Automatic",0
+"BMW M5","BMW M5 Sedan (Petrol)",11700000,"Sedan",4395," Petrol",NA,142," 560 "," 6000",7.14,13.25," 8"," 5"," 7 Speed Automatic","BMW",7,"Automatic",0
+"BMW M6 Gran Coupe","BMW M6 Gran Coupe (Petrol)",17500000,"Coupe",4395," Petrol",NA,NA," 560 "," 6000-7000",11.83425,10.1," 8"," 5"," 7 Speed Automatic","BMW",7,"Automatic",0
+"BMW X1","BMW X1 sDrive20d (Diesel)",3075000,"SUV",1995," Diesel",NA,179," 184 "," 4000",13,17.5," 4"," 5"," 8 Speed Automatic","BMW",8,"Automatic",1
+"BMW X3","BMW X3 xDrive20d Expedition (Diesel)",4490000,"SUV",1995," Diesel",NA,210," 190 "," 4000",15.77,18.56," 4"," 5"," 8 Speed Automatic","BMW",8,"Automatic",1
+"BMW X5","BMW X5 xDrive30d (Diesel)",7090000,"SUV",2993," Diesel",NA,209," 258 "," 4000",11.9,15.35," 6"," 5"," 8 Speed Automatic","BMW",8,"Automatic",1
+"BMW X6","BMW X6 xDrive 40d (Diesel)",9670000,"SUV",2993,NA,NA,212," 173 "," 4000",11.83425,15.3514948453608,NA,NA,NA,"BMW",4,"Manual",0
+"BMW Z4","BMW Z4 Roadster sDrive35i (Petrol)",7090000,"Convertible",2979," Petrol"," 1855",212," 306 "," 5800",7.16,10.37," 6"," 2"," 7 Speed Automatic","BMW",7,"Automatic",0
+"Car Specification","New Renault Koleos 2WD MT (Diesel)",2233000,"SUV",1995," Diesel",NA,206," 148 "," 4000",11.83425,17.15," 4"," 5"," 6 Speed Manual","Car",6,"Manual",1
+"Chevrolet Captiva","Chevrolet Captiva – LT/Xtreme",2354229,"SUV",2231," Diesel",NA,177," 184 "," 3800",11.83425,14.6," 4"," 7"," 5 Speed Manual","Chevrolet",5,"Manual",1
+"Chevrolet Cruze","Chevrolet Cruze LT (Diesel)",1379222,"Sedan",1998," Diesel",NA,165," 163.73 "," 3800",11.83425,17.3," 4"," 5"," 6 Speed Manual","Chevrolet",6,"Manual",1
+"Chevrolet Enjoy","Chevrolet Enjoy 1.4 LS 8 Seater (Petrol)",611960,"MPV",1399," Petrol"," 1860",161," 102.58 "," 6000",11.83425,13.7," 4"," 8"," 5 Speed Manual","Chevrolet",5,"Manual",0
+"Chevrolet Sail","Chevrolet Sail 1.2 Base (Petrol)",550677,"Sedan",1199," Petrol"," 1450",174," 82.45 "," 6000",15.9,18.2," 4"," 5"," 5 Speed Manual","Chevrolet",5,"Manual",0
+"Chevrolet Sail Hatchback (U-VA)","Chevrolet Sail Hatchback 1.2 Base (Petrol)",467689,"Hatchback‎",1199," Petrol",NA,174," 82.45 "," 6000",15,18.2," 4"," 5"," 5 Speed Manual","Chevrolet",5,"Manual",0
+"Chevrolet Spark","Chevrolet Spark 1.0 (Petrol)",344710,"Hatchback",995," Petrol",NA,170," 62.14 "," 5400",11.83425,16.2," 4"," 5"," 5 Speed Manual","Chevrolet",5,"Manual",0
+"Chevrolet Tavera","Chevrolet Tavera Neo 3 10 Seats BSIII (Diesel)",727353,"MUV",2499," Diesel",NA,184," 72.30 "," 3900",11.83425,13.58," 4"," 10"," 5 Speed Manual","Chevrolet",5,"Manual",1
+"Datsun GO Plus","Datsun Go Plus D (Petrol)",379642,"MPV",1198," Petrol",NA,170," 67 "," 5000",16.3,20.6," 3"," 7"," 5 Speed Manual","Datsun",5,"Manual",0
+"Ferrari 458 Italia","Ferrari 458 Italia Coupe (Petrol)",25200000,"Coupe",4499," Petrol",NA,145," 419 "," 9000",6,9," 8"," 2"," 7 Speed Automatic","Ferrari",7,"Automatic",0
+"Ferrari 599 GTB Fiorano","Ferrari 599 GTB Fiorano Coupe (Petrol)",33700000,"Coupe",5999," Petrol",NA,145," 612 "," 7600",6,9," 4"," 2"," 6 Speed Automatic","Ferrari",6,"Automatic",0
+"Ferrari California","Ferrari California Convertible (Petrol)",2.2e+07,"Sedan",4297," Petrol",NA,145," 360 "," 7750",6,9," 8"," 2"," 7 Speed Automatic","Ferrari",7,"Automatic",0
+"Ferrari FF","Ferrari FF 6.3L V12 (Petrol)",3.4e+07,"Coupe",6262," Petrol",NA,145," 661 "," 8000",2,4," 4"," 5"," 7 Speed Automatic","Ferrari",7,"Automatic",0
+"Fiat Avventura","Fiat Avventura Active (Petrol)",629187,"SUV",1368," Petrol",NA,205," 89 "," 6000",11.83425,14.4," 4"," 5"," 5 Speed Manual","Fiat",5,"Manual",0
+"Fiat Linea Classic","Fiat Linea Classic 1.4L (Petrol)",612439,"Sedan",1368," Petrol",NA,185," 88.77 "," 6000",11.4,14.9," 4"," 5"," 5 Speed Manual","Fiat",5,"Manual",0
+"Fiat New Linea","Fiat Linea Active 1.4 (Petrol)",700480,"Sedan",1368," Petrol",NA,185," 112.4 "," 5000",11.3,15.7," 4"," 5"," 5 Speed Manual","Fiat",5,"Manual",0
+"Fiat Punto Evo","Fiat Punto EVO Active (Petrol)",498577,"Hatchback",1172," Petrol",NA,195," 67.07 "," 6000",11.83425,15.8," 4"," 5"," 5 Speed Manual","Fiat",5,"Manual",0
+"Fiat Viaggio","Fiat Viaggio – Expected Specification",6e+05,"Sedan",1368," Petrol",NA,165," 147 "," 5500",11.83425,15.3514948453608,NA,NA," 5 Speed Manual","Fiat",5,"Manual",0
+"Force One","Force One EX 7-STR (Diesel)",926805,"SUV",2650," Diesel",NA,205," 80.88 "," 3200",14,17," 4"," 7"," 5 Speed Manual","Force",5,"Manual",1
+"Ford Classic","Ford Classic 1.6 Duratec LXi (Petrol)",506000,"Sedan",1596," Petrol",NA,168," 99.6 "," 6500",11.83425,14.09," 4"," 5"," 5 Speed Manual","Ford",5,"Manual",0
+"Ford EcoSport","Ford EcoSport Ambiente 1.5 Ti-VCT (Petrol)",675000,"SUV",1499," Petrol",NA,200," 110 "," 6300",11.83425,15.8," 4"," 5"," 5 Speed Manual","Ford",5,"Manual",0
+"Ford Endeavour","New Ford Endeavour 2.5L 2WD (Diesel)",2215500,"SUV",2499," Diesel",NA,210," 141.04 "," 3500",8.9,12.67," 4"," 7"," 5 Speed Manual","Ford",5,"Manual",1
+"Ford Fiesta","Ford Fiesta 1.5D Ambiente (Diesel)",850000,"Sedan",1498," Diesel",NA,NA," 89.85 "," 3750",20.2,23.5," 4"," 5"," 5 Speed Manual","Ford",5,"Manual",1
+"Ford Figo 2014","New Ford Figo LXi 1.2 (Petrol)",413700,"Hatchback",1196," Petrol",NA,168," 70.03 "," 6250",11.83425,15.33," 4"," 5"," 5 Speed Manual","Ford",5,"Manual",0
+"Gumpert Apollo","Gumpert Apollo STD (Petrol)",5e+07,"Sport Coupe",4163," Petrol",NA,NA," 650 "," 6500",11.83425,15.3514948453608," 8"," 2"," 6 Speed Automatic","Gumpert",6,"Automatic",0
+"Honda Amaze","Honda Amaze 1.2 E MT i-VTEC (Petrol)",518900,"Sedan",1198," Petrol",NA,165," 86.79 "," 6000",15,18," 4"," 5"," 5 Speed Manual","Honda",5,"Manual",0
+"Honda Brio","Honda Brio E MT (Petrol)",421400,"Hatchback",1198," Petrol",NA,165," 86.79 "," 6000",16.2,19.4," 4"," 5"," 5 Speed Manual","Honda",5,"Manual",0
+"Honda City","Honda City VX Opt (Petrol)",1064000,"Sedan",1497," Petrol",NA,165," 117.3 "," 6600",14.1,17.1," 4"," 5"," 5 Speed Manual","Honda",5,"Manual",0
+"Honda CR-V 2014","Honda CR-V 2.0L 2WD MT (Petrol)",2190000,"SUV",1997," Petrol",NA,170," 156 "," 6500",10.9,13.7," 4"," 5"," 6 Speed Manual","Honda",6,"Manual",0
+"Honda Freed","Honda Freed 1.5 (Petrol)",750000,"MPV",1497," Petrol",NA,165," 116.38 "," 6600",11.83425,16.2," 4",NA," 5 Speed Automatic","Honda",5,"Automatic",0
+"Honda Jazz","Honda jazz – Expected Specification",756455,"Hatchback",1198," Petrol",NA,135," 9066 "," 6200",13,16," 4",NA," 5 Speed Manual","Honda",5,"Manual",0
+"Honda Mobilio","Honda Mobilio E i-VTEC (Petrol)",674700,"MPV",1497," Petrol",NA,189," 117.37 "," 6600",11.83425,17.3," 4"," 7"," 5 Speed Manual","Honda",5,"Manual",0
+"Hyundai Elantra","Hyundai Elantra 1.8 S (Petrol)",1413196,"Sedan",1797," Petrol",NA,167," 147.45 "," 6500",11.83425,16.3," 4"," 5"," 6 Speed Manual","Hyundai",6,"Manual",0
+"Hyundai EON","Hyundai Eon D-LITE (Petrol)",302157,"Hatchback",814," Petrol",NA,170," 55.23 "," 5500",11.83425,21.1," 3"," 5"," 5 Speed Manual","Hyundai",5,"Manual",0
+"Hyundai Grand i10","Hyundai Grand i10 Era 1.2 Kappa VTVT (Petrol)",463027,"Hatchback",1197," Petrol",NA,165," 81.86 "," 6000",15.9,18.9," 4"," 5"," 5 Speed Manual","Hyundai",5,"Manual",0
+"Hyundai i10","Hyundai Next Gen i10 1.1 iRDE2 (Petrol)",418200,"Hatchback",1086," Petrol",NA,165," 68.05 "," 5500",11.83425,19.81," 4"," 5"," 5 Speed Manual","Hyundai",5,"Manual",0
+"Hyundai i20","Hyundai Elite i20 1.2 Era (Petrol)",522974,"Hatchback",1197," Petrol",NA,170," 81.86 "," 6000",13.3,18.6," 4"," 5"," 5 Speed Manual","Hyundai",5,"Manual",0
+"Hyundai i20 Active","Hyundai i20 Active Base 1.2 (Petrol)",638586,"Hatchback",1197," Petrol",NA,190," 81.9 "," 6000",13.5,17.9," 4"," 5"," 5 Speed Manual","Hyundai",5,"Manual",0
+"Hyundai New Santa FE","Hyundai New Santa Fe 2WD MT (Diesel)",2684430,"SUV",2199," Diesel",NA,185," 194.3 "," 3800",11.83425,14," 4"," 7"," 6 Speed Manual","Hyundai",6,"Manual",1
+"Hyundai Sonata","Hyundai Sonata 2.4 GDi MT (Petrol)",1920584,"Sedan",2359," Petrol",NA,155," 198.25 "," 6300",10,13.08," 4"," 5"," 6 Speed Manual","Hyundai",6,"Manual",0
+"Hyundai Xcent","Hyundai Xcent Base 1.2 (Petrol)",496012,"Sedan",1197," Petrol",NA,165," 81.86 "," 6000",15.7,19.1," 4"," 5"," 5 Speed Manual","Hyundai",5,"Manual",0
+"Isuzu MU 7","Isuzu MU 7 2WD (Diesel)",2195000,"SUV",2999," Diesel",NA,210," 160.8 "," 3600",9.8,10.3," 4"," 7"," 5 Speed Manual","Isuzu",5,"Manual",1
+"Jaguar F-Type","Jaguar F-Type V6 S Convertible (Petrol)",14937004,"Convertible",2995," Petrol",NA,NA," 280 "," 6500",11.83425,15.3514948453608," 6"," 2"," 8 Speed Automatic","Jaguar",8,"Automatic",0
+"Jaguar F-Type Coupe","Jaguar F-Type Coupe (Petrol)",12200000,"Coupe",2995," Petrol",NA,NA," 335.34 "," 6500",11.83425,14.7," 6"," 2"," 8 Speed Automatic","Jaguar",8,"Automatic",0
+"Jaguar XF","Jaguar XF 2.2 Executive Edition (Diesel)",4512000,"Sedan",2179," Diesel"," 2320",100," 190 "," 3000",11.83425,16.3," 4"," 5"," 8 Speed Automatic","Jaguar",8,"Automatic",1
+"Jaguar XJ","Jaguar XJ 2.0L LWB (Petrol)",9375000,"Sedan",1999," Petrol"," 2265",NA," 236.71 "," 5500",5.8,9.4," 4"," 5"," 8 Speed Automatic","Jaguar",8,"Automatic",0
+"Lamborghini Huracan","Lamborghini Huracan LP 610-4 (Petrol)",34300000,"Supercar",5204," Petrol",NA,NA," 602 "," 8250",4,6.4," 10"," 2"," 7 Speed Automatic","Lamborghini",7,"Automatic",0
+"Land Rover Discovery 4","Land Rover Discovery 4 3.0L TDV6 SE (Diesel)",10800000,"SUV",2993," Diesel",NA,210," 245 "," 4000",7.7,11.8," 6"," 7"," 8 Speed Automatic","Land",8,"Automatic",1
+"Land Rover Freelander 2","Land Rover Freelander 2 SE (Diesel)",3919000,"SUV",2179," Diesel",NA,210," 147 "," 4000",11.83425,12.39," 4"," 5"," 6 Speed Automatic","Land",6,"Automatic",1
+"Land Rover Range Rover","Land Rover Range Rover 3.0 V6 Diesel Vogue (Diesel)",18300000,"SUV",2993," Diesel",NA,295.5," 335 "," 4000",11.83425,11.6," 6"," 7"," 8 Speed Automatic","Land",8,"Automatic",1
+"Land Rover Range Rover Evoque","Land Rover Range Rover Evoque Pure SD4 (Diesel)",5499000,"SUV",2179," Diesel",NA,227," 190 "," 3500",11.83425,13.32," 4"," 5"," 6 Speed Automatic","Land",6,"Automatic",1
+"Land Rover Range Rover Sport","Land Rover Range Rover Sport SE (Diesel)",12504562,"SUV",2993," Diesel",NA,172," 242 "," 4000",11.83425,14.07," 6"," 5"," 8 Speed Automatic","Land",8,"Automatic",1
+"Mahindra Bolero","Mahindra Bolero SLE (Diesel)",731476,"SUV",2523," Diesel",NA,180," 63 "," 3200",11.83425,15.96," 4"," 7"," 5 Speed Manual","Mahindra",5,"Manual",1
+"Mahindra e2o","Mahindra e2o T2",592649,"Hatchback",3,NA,NA,180," 25.5 "," 3750",11.83425,15.3514948453608,NA," 4",NA,"Mahindra",4,"Manual",0
+"Mahindra Quanto","Mahindra Quanto C2 (Diesel)",641670,"SUV",1493," Diesel",NA,180," 100 "," 3750",11.83425,17.1," 3"," 7"," 5 Speed Manual","Mahindra",5,"Manual",1
+"Mahindra Scorpio","Mahindra Scorpio S2 (Diesel)",869253,"SUV",2523," Diesel"," 2510",180," 75 "," 3200",12,14," 4"," 7 & 9"," 5 Speed Manual","Mahindra",5,"Manual",1
+"Mahindra Thar","Mahindra Thar DI 2WD (Diesel)",475817,"SUV",2523," Diesel",NA,187," 63 "," 3800",11.83425,13," 4"," 7"," 5 Speed Manual","Mahindra",5,"Manual",1
+"Mahindra Verito","Mahindra Verito 1.5 D2 BS-III (Diesel)",673293,"Sedan",1461," Diesel"," 1630",172," 65 "," 4000",11.83425,21.1," 4"," 5"," 5 Speed Manual","Mahindra",5,"Manual",1
+"Mahindra Verito Vibe","Mahindra Verito Vibe (CS) 1.5 D2 (Diesel)",600962,"Hatchback",1461," Diesel"," 1650",172," 64 "," 4000",11.83425,20.8," 4"," 5"," 5 Speed Manual","Mahindra",5,"Manual",1
+"Mahindra XUV500","Mahindra XUV500 W4 (Diesel)",1120668,"SUV",2179," Diesel"," 2450",160," 140 "," 3750",12,15.1," 4"," 7"," 6 Speed Manual","Mahindra",6,"Manual",1
+"Mahindra Xylo","Mahindra Xylo D2 BS-III (Diesel)",807513,"SUV",2489," Diesel",NA,186," 95 "," 3600",11.83425,13.9," 4"," 7 & 8"," 5 Speed Manual","Mahindra",5,"Manual",1
+"Maruti Suzuki Alto","Maruti Suzuki New Alto K10 LX (Petrol)",315218,"Hatchback",998," Petrol"," 1210",160," 67.1 "," 6000",19,24.07," 3"," 5"," 5 Speed Manual","Maruti",5,"Manual",0
+"Maruti Suzuki Alto 800","Maruti Suzuki Alto 800 Std (Petrol)",247936,"Hatchback",796," Petrol"," 1185",160," 47.3 "," 6000",17,22.74," 3"," 5"," 5 Speed Manual","Maruti",5,"Manual",0
+"Maruti Suzuki Celerio","Maruti Suzuki Celerio LXi MT (Petrol)",392017,"Hatchback",998," Petrol"," 1250",165," 67.07 "," 6000",19,23.1," 3"," 5"," 5 Speed Manual","Maruti",5,"Manual",0
+"Maruti Suzuki Ciaz","Maruti Suzuki Ciaz VXi (Petrol)",725458,"Sedan",1373," Petrol"," 1490",170," 91.2 "," 6000",16.08,20.73," 4"," 5"," 5 Speed Manual","Maruti",5,"Manual",0
+"Maruti Suzuki EECO","Maruti Suzuki Eeco 5 STR (Petrol)",311222,"MUV",1196," Petrol",NA,160," 73 "," 6000",11.8,15.1," 4"," 5"," 5 Speed Manual","Maruti",5,"Manual",0
+"Maruti Suzuki Ertiga","Maruti Suzuki Ertiga LXi (Petrol)",602995,"MUV",1373," Petrol"," 1760",185," 93.7 "," 6000",12.3,16.02," 4"," 7"," 5 Speed Manual","Maruti",5,"Manual",0
+"Maruti Suzuki Estilo","Maruti Suzuki Estilo LX BS-IV (Petrol)",337832,"Hatchback",998," Petrol",NA,165," 67 "," 6200",15,19," 3"," 5"," 5 Speed Manual","Maruti",5,"Manual",0
+"Maruti Suzuki Grand Vitara","Maruti Suzuki Grand Vitara 2.4 MT (Petrol)",2139904,"SUV",2393," Petrol"," 2100",200," 163.5 "," 6000",7.2,10.4," 4"," 5"," 5 Speed Manual","Maruti",5,"Manual",0
+"Maruti Suzuki Gypsy King","Maruti Suzuki Gypsy King ST BS-IV (Petrol)",600400,"SUV",1298," Petrol",NA,210," 80 "," 6000",11.83425,11.96," 4"," 8"," 5 Speed Manual","Maruti",5,"Manual",0
+"Maruti Suzuki Kizashi","Maruti Suzuki Kizashi MT (Petrol)",1720172,"Sedan",2393," Petrol",NA,155," 175 "," 6500",9.2,12.45," 4"," 5"," 6 Speed Manual","Maruti",6,"Manual",0
+"Maruti Suzuki Omni","Maruti Suzuki Omni 5 STR BS-IV (Petrol)",251591,"MUV",796," Petrol",NA,165," 33 "," 5000",11.83425,14.07," 3"," 5"," 4 Speed Manual","Maruti",4,"Manual",0
+"Maruti Suzuki Ritz","Maruti Suzuki Ritz Lxi BS-IV (Petrol)",442275,"Hatchback",1248," Petrol",NA,170," 86 "," 6000",14.7,18.5," 4"," 5"," 5 Speed Manual","Maruti",5,"Manual",0
+"Maruti Suzuki Swift","Maruti Suzuki Swift LXi (Petrol)",461883,"Hatchback",1197," Petrol"," 1415",170," 83.15 "," 6000",15.6,20.4," 4"," 5"," 5 Speed Manual","Maruti",5,"Manual",0
+"Maruti Suzuki Swift DZire","Maruti Suzuki Swift DZire LXI (Petrol)",507883,"Sedan",1197," Petrol"," 1415",170," 85.8 "," 6000",16.3,19.1," 4"," 5"," 5 Speed Manual","Maruti",5,"Manual",0
+"Maruti Suzuki SX4","Maruti Suzuki SX4 Vxi (Petrol)",715138,"Sedan",1586," Petrol",NA,170," 103 "," 5600",12,16.51," 4"," 5"," 5 Speed Manual","Maruti",5,"Manual",0
+"Maruti Suzuki Wagon-R","Maruti Wagon R LX (Petrol)",362917,"Hatchback",998," Petrol"," 1350",165," 67.07 "," 6200",17.08,20.5," 3"," 5"," 5 Speed Manual","Maruti",5,"Manual",0
+"Maruti Suzuki WagonR Stingray","Maruti Suzuki WagonR Stingray LXI (Petrol)",417033,"Hatchback",998," Petrol"," 1350",165," 67.7 "," 6200",17.08,20.51," 3"," 5"," 5 Speed Manual","Maruti",5,"Manual",0
+"Mercedes-Benz A-Class","Mercedes-Benz A-Class A180 CDI (Diesel)",2329000,"SUV",2143," Diesel"," 2000",160," 107.28 "," 3200-4400",17.9,20.6," 4"," 5"," 7 Speed Automatic","Mercedes-Benz",7,"Automatic",1
+"Mercedes-Benz B-class","Mercedes-Benz B-Class B180 Sport (Petrol)",2795000,"SUV",1595," Petrol"," 1950",134," 122 "," 5000",7.9,11.9," 4"," 5"," 7 Speed Automatic","Mercedes-Benz",7,"Automatic",0
+"Mercedes Benz C Class","Mercedes-Benz C-Class C 220 CDI Style (Diesel)",3990000,"Sedan",2143," Diesel"," 2135",NA," 168 "," 3000 – 4200",11.83425,19.27," 4"," 5"," 7 Speed Automatic","Mercedes",7,"Automatic",1
+"Mercedes-Benz CLA","Mercedes-Benz CLA 200 CDI Style (Diesel)",3150000,"Sedan",1991," Diesel"," 2005",NA," 135 "," 3600 4400",13,17.9," 4"," 5"," 7 Speed Automatic","Mercedes-Benz",7,"Automatic",1
+"Mercedes-Benz CLA 45 AMG","Mercedes-Benz CLA 45 AMG (Petrol)",6850000,"Saloon Sedan",1991," Petrol",NA,NA," 355.37 "," 6000",11.83425,15.3514948453608,NA,NA," 7 Speed Automatic","Mercedes-Benz",7,"Automatic",0
+"Mercedes-Benz CLS","Mercedes-Benz CLS-Class 250 CDI",7650000,"Coupe",2143," Diesel"," 2270",118," 204 "," 380",6.13,9.26," 4"," 4"," 7 Speed Automatic","Mercedes-Benz",7,"Automatic",1
+"Mercedes-Benz E-Class","Mercedes-Benz E-Class E 200 CGI (Petrol)",4850000,"Sedan",1991," Petrol"," 2200",120," 246 "," 5500",8,12," 4"," 5"," 7 Speed Automatic","Mercedes-Benz",7,"Automatic",0
+"Mercedes-Benz G-Class","Mercedes-Benz G-Class G 63 AMG (Petrol)",13977500,"SUV",5461," Petrol",NA,205," 536 "," 5500",11.83425,9.5," 8"," 5"," 7 Speed Automatic","Mercedes-Benz",7,"Automatic",0
+"Mercedes-Benz GL","Mercedes-Benz GL 350 CDI (Diesel)",7758000,"SUV",2987," Diesel"," 3250",201," 258 "," 3600",8,12," 6"," 7"," 7 Speed Automatic","Mercedes-Benz",7,"Automatic",1
+"Mercedes-Benz GLA","Mercedes-Benz GLA 200 CDI Style (Diesel)",3275000,"SUV",2143," Diesel"," 2115",183," 134.10 "," 3600 - 4400",13.4,17.7," 4"," 5"," 7 Speed Automatic","Mercedes-Benz",7,"Automatic",1
+"Mercedes-Benz M-Class","Mercedes-Benz M-Class ML 250 CDI BlueEfficiency (Diesel)",5490000,"SUV",2143," Diesel"," 2950",223," 203.2 "," 4200",11.83425,14," 4"," 5"," 7 Speed Automatic","Mercedes-Benz",7,"Automatic",1
+"Mercedes-Benz R-Class","Mercedes-Benz R-Class R350 4MATIC (Petrol)",7168000,"SUV",3496," Diesel",NA,201," 272 "," 6000",11.83425,8.4," 6"," 7"," 7 Speed Automatic","Mercedes-Benz",7,"Automatic",1
+"Mercedes-Benz S-Class","Mercedes Benz S Class S 350 CDI (Diesel)",10700000,"Sedan",2987," Diesel"," 2580",146," 254.79 "," 3600",9,13.5," 6"," 5"," 7 Speed Automatic","Mercedes-Benz",7,"Automatic",1
+"Mercedes-Benz SL","Mercedes-Benz SL 350 (Petrol)",9850000,"Sedan",3498," Petrol",NA,135," 316 "," 6500",11.83425,8.1," 6"," 2"," 7 Speed Automatic","Mercedes-Benz",7,"Automatic",0
+"Mercedes-Benz SLK-Class","Mercedes-Benz SLK-Class SLK 350 Blue Efficiency (Petrol)",8378000,"Sedan",3498," Petrol"," 1855",135," 306 "," 6500",6.5,11.11," 6"," 2"," 7 Speed Automatic","Mercedes-Benz",7,"Automatic",0
+"Mercedes-Benz SLS","Mercedes-Benz SLS AMG Coupe (Petrol)",25200000,"Sedan",6208," Petrol"," 1935",135," 420 "," 6800",11.83425,10.7," 8"," 2"," 7 Speed Automatic","Mercedes-Benz",7,"Automatic",0
+"Mini Cooper","Mini Cooper D 3 Door (Diesel)",3185000,"Hatchback",1496," Diesel",NA,NA," 114 "," 4000",19.03,21.15," 3"," 4"," 6 Speed Automatic","Mini",6,"Automatic",1
+"Mini Cooper Convertible","Mini Cooper Convertible 1.6 (Petrol)",3320000,"Hatchback",1598," Petrol",NA,135," 122 "," 6000",12.3,15.5," 2"," 4"," 6 Speed Automatic","Mini",6,"Automatic",0
+"Mini Cooper S","Mini Cooper S 1.6 (Petrol)",3420000,"Hatchback",1598," Petrol",NA,135," 184 "," 5500",9,15.62," 4"," 4"," 6 Speed Automatic","Mini",6,"Automatic",0
+"Mitsubishi Pajero Sport","Mitsubishi Pajero Sport 2.5 MT",2350000,"SUV",2477," Diesel"," 2710",215," 178 "," 4000",11.83425,13.5," 4"," 7"," 6 Speed Manual","Mitsubishi",6,"Manual",1
+"New 4S Fluidic Hyundai Verna","Hyundai 1.4L Gamma VTVT Base 4S Fluidic Verna (Petrol)",773903,"Sedan",1396," Petrol",NA,165," 105.5 "," 6300",14.21,17.43," 4"," 5"," 5 Speed Manual","New",5,"Manual",0
+"New Chevrolet Beat","New Chevrolet Beat PS (Petrol)",420923,"Hatchback",1199," Petrol",NA,165," 79.4 "," 6200",11.83425,18.6," 4"," 5"," 5 Speed Manual","New",5,"Manual",0
+"New Skoda Superb","New Skoda Superb Ambition 1.8 TSI MT (Petrol)",1862276,"Sedan",1798," Petrol"," 2074",159," 157.81 "," 4500-6200",10.7,13.1," 4"," 5"," 6 Speed Manual","New",6,"Manual",0
+"Nissan Datsun GO","Datsun GO D (Petrol)",312270,"Hatchback",1198," Petrol",NA,170," 67.07 "," 5000",17,20.6," 3"," 5"," 5 Speed Manual","Nissan",5,"Manual",0
+"Nissan Evalia","Nissan Evalia XE (Diesel)",849999,"MPV",1461," Diesel"," 2000",180," 84.8 "," 3750",11.83425,19.3," 4"," 7"," 5 Speed Manual","Nissan",5,"Manual",1
+"Nissan Micra","Nissan Micra Active XL (Petrol)",412819,"Hatchback",1198," Petrol",NA,154," 67 "," 5000",16.24,19.49," 3"," 5"," 5 Speed Manual","Nissan",5,"Manual",0
+"Nissan Qashqai","Nissan Qashqai – Expected Specification",2190000,"SUV",1598," Petrol",NA,NA," 116 "," 6000",10,15," 4"," 7"," 5 Speed Automatic","Nissan",5,"Automatic",0
+"Nissan Sunny","Nissan New Sunny XE (Petrol)",699000,"Sedan",1498," Petrol",NA,165," 97.6 "," 6000",13.45,16.95," 4"," 5"," 5 Speed Manual","Nissan",5,"Manual",0
+"Nissan Teana","Nissan Teana 250 XL (Petrol)",2114086,"Sedan",2496," Petrol"," 2030",145," 179.5 "," 6000",8.03,11.7," 6"," 5"," Automatic","Nissan",5,"Automatic",0
+"Nissan Terrano","Nissan Terrano XE (Diesel)",962875,"SUV",1461," Diesel"," 1764",205," 84 "," 3750",17.1,20.5," 4"," 5"," 5 Speed Manual","Nissan",5,"Manual",1
+"Porsche 911","Porsche 911 Targa 4 (Petrol)",15900000,"Coupe",3436," Petrol"," 1945",NA," 350 "," 7400",6.9,8.7," 6"," 5"," 7 Speed Automatic","Porsche",7,"Automatic",0
+"Porsche Boxster","Porsche Boxster S (Petrol)",9202000,"Supercar",3436," Petrol"," 1665",NA," 315 "," 6700",8.19,14.49," 6"," 2"," 6 Speed Manual","Porsche",6,"Manual",0
+"Porsche Cayenne","Porsche Cayenne Diesel",10400000,"SUV",2967," Diesel"," 2870",215," 245 ","3800-4400",12.82,16.12," 6"," 5"," 8 Speed Automatic","Porsche",8,"Automatic",1
+"Porsche Cayman","Porsche Cayman S",9450000,"Coupe",3436," Petrol"," 1665",NA," 325 "," 7400",8.19,14.9," 6"," 2"," 6 Speed Manual","Porsche",6,"Manual",0
+"Renault Duster","Renault Duster RxE (Petrol)",830009,"SUV",1598," Petrol"," 1755",205," 103.8 "," 5850",10.5,13.05," 4"," 5"," 5 Speed Manual","Renault",5,"Manual",0
+"Renault Fluence","Renault Fluence 1.5 E2 (Diesel)",1399000,"Sedan",1461," Diesel",NA,168," 108.4 "," 4000",17.2,20.4," 4"," 5"," 6 Speed Manual","Renault",6,"Manual",1
+"Renault Lodgy","Renault Lodgy 85PS STD",819000,"MPV",1461," Diesel",NA,174," 83.8 "," 4000",16.8,21.04," 4"," 8"," 5 Speed Manual","Renault",5,"Manual",1
+"Renault Pulse","Renault Pulse RxE (Petrol)",446100,"Hatchback",1198," Petrol",NA,154," 74 "," 6000",15,18," 4"," 5"," 5 Speed Manual","Renault",5,"Manual",0
+"Renault Scala","Renault Scala RxE (Petrol)",724500,"Sedan",1498," Petrol",NA,161," 98 "," 6000",13.5,16.95," 4"," 5"," 5 Speed Manual","Renault",5,"Manual",0
+"Rolls Royce Ghost V Specification","Rolls Royce Ghost V Specification (Petrol)",46600000,"Sedan",6592," Petrol",NA,170," 593 "," 5250",11.83425,10.2," 12",NA," 8 Speed Automatic","Rolls",8,"Automatic",0
+"Rolls-Royce Wraith","Rolls Royce Wraith Coupe (Petrol)",4.6e+07,"Coupe",6592," Petrol",NA,NA," 624 "," 5600",11.83425,9,NA,NA," 8 Speed Automatic","Rolls-Royce",8,"Automatic",0
+"San Motors Storm","San Motors Storm 1.2 (Petrol)",595000,"Sedan",1149," Petrol"," 1510",135," 59 "," 5250",11.9,16," 4"," 2"," 5 Speed Manual","San",5,"Manual",0
+"Skoda D Rapid","Skoda D Rapid – 1.6 TDI CR/77 kW",850608,"Sedan",1598," Diesel",NA,168," 77 "," 4400",11.83425,20.5,NA,NA," 5 Speed Manual","Skoda",5,"Manual",1
+"Skoda Fabia","Skoda Fabia – 1.2 MPI/55 kW (Petrol)",502768,"Hatchback",1198," Petrol"," 1550",158," 75 "," 5400",11.83425,16.4," 3"," 5"," 5 Speed Manual","Skoda",5,"Manual",0
+"Skoda New Octavia","Skoda New Octavia Active 1.4 TSI (Petrol)",1395000,"Sedan",1395," Petrol"," 1820",155," 138.8 "," 4500-6000",11.83425,16.8," 4"," 5"," 6 Speed Manual","Skoda",6,"Manual",0
+"Skoda Rapid","Skoda Rapid 1.6 MPI Active (Petrol)",755500,"Sedan",1598," Petrol"," 1674",168," 103.5 "," 5250",12,15," 4"," 5"," 5 Speed Manual","Skoda",5,"Manual",0
+"Skoda Yeti Facelift","Skoda Yeti Ambition 2.0 TDi CR 2WD (Diesel)",2010000,"SUV",1968," Diesel"," 1960",180," 108.5 "," 4200",14.3,17.72," 4"," 5"," 5 Speed Manual","Skoda",5,"Manual",1
+"Ssangyong Korando","Ssangyong Korando – Expected Specification",1615000,"SUV",1998," Diesel",NA,NA," 174 "," 4000",11.83425,7.5,NA,NA," 6 Speed Manual","Ssangyong",6,"Manual",1
+"Ssangyong Rexton","SsangYong Rexton W RX 5 MT (Diesel)",1987337,"SUV",2696," Diesel"," 2760",181," 162 "," 4000",11.4,12.4," 5"," 7"," 5 Speed Manual","Ssangyong",5,"Manual",1
+"Tata Aria Facelift","Tata Aria Pure LX 2WD (Diesel)",1043434,"SUV",2179," Diesel"," 2850",200," 147.95 "," 4000",12.08,15.05," 4"," 7"," 5 Speed Manual","Tata",5,"Manual",1
+"Tata Bolt","Tata Bolt Revotron 1.2T XE (Petrol)",444993,"Hatchback",1198," Petrol",NA,165," 89 "," 5000",11.83425,15.3514948453608," 4"," 5"," 5 Speed Manual","Tata",5,"Manual",0
+"Tata Indica eV2","Tata Indica eV2 emax GLS (CNG)",403555,"Hatchback",1193," CNG",NA,165," 55.2 "," 5200",11.83425,23.7," 4"," 5"," 5 Speed Manual","Tata",5,"Manual",2
+"Tata Indica Vista","Tata Indica Vista LS TDI BS-III (Diesel)",478000,"Hatchback",1405," Diesel",NA,165," 70 "," 4500",11.83425,19.1," 4"," 5"," 5 Speed Manual","Tata",5,"Manual",1
+"Tata Indigo eCS","Tata Indigo eCS GLX (Petrol)",499000,"Sedan",1193," Petrol",NA,165," 65 "," 5000",11.83425,14," 4"," 5"," 5 Speed Manual","Tata",5,"Manual",0
+"Tata Manza","Tata Manza LS (Diesel)",616357,"Sedan",1248," Diesel"," 1650-1660",165," 88 "," 4000",11.83425,21.2," 4"," 5"," 5 Speed Manual","Tata",5,"Manual",1
+"Tata Movus","Tata Movus CX 7 STR Side Facing-BS4",698272,"MUV",2179," Diesel"," 2535",180," 118.36 "," 4000",11.38,15.16," 4"," 7"," 5 Speed Manual","Tata",5,"Manual",1
+"Tata Nano","Tata GenX Nano XE",199000,"Hatchback",624," Petrol",NA,180," 37.5 "," 5250 - 5750",20.4,23.9," 2"," 4"," 4 Speed Manual","Tata",4,"Manual",0
+"Tata Safari DICOR","Tata Safari 2WD LX DICOR BS-III (Diesel)",825622,"SUV",2179," Diesel",NA,205," 140 "," 4000",11.83425,13.93," 4"," 7"," 5 Speed Manual","Tata",5,"Manual",1
+"Tata Safari Storme","Tata Safari Storme LX 2WD (Diesel)",999000,"SUV",2179," Diesel"," 2555",200," 138 "," 4000",10.8,14.1," 4"," 7"," 5 Speed Manual","Tata",5,"Manual",1
+"Tata Sumo Gold","Tata Sumo Gold CX BS III (Diesel)",622730,"SUV",2956," Diesel",NA,190," 69 "," 3000",11.83425,14.7," 4"," 7 & 9"," 5 Speed Manual","Tata",5,"Manual",1
+"Tata Sumo Grande","Tata Sumo Grande MK II LX BS-IV (Diesel)",762204,"MUV",2179," Diesel"," 2625",180," 118 "," 4000",11.83425,13.55," 4"," 7 & 8"," 5 Speed Manual","Tata",5,"Manual",1
+"Tata Venture","Tata Venture LX (Diesel)",456715,"Van",1405," Diesel",NA,160," 71 "," 4500",11.83425,15.42," 4"," 8"," 6 Speed Manual","Tata",6,"Manual",1
+"Tata Winger","Tata Winger Platinum BS-III (Diesel)",760000,"Van",1948,NA,NA,165," 91 "," 4300",11.83425,15.3514948453608,NA,NA,NA,"Tata",4,"Manual",0
+"Tata Xenon","Tata Xenon XT EX 2WD (Diesel)",1000850,"SUV",2179," Diesel",NA,200," 140 "," 4000",11.83425,13.49," 4"," 6"," 5 Speed Manual","Tata",5,"Manual",1
+"Tata Zest","Tata Zest XE (Petrol)",481191,"Sedan",1193," Petrol",NA,175," 88.8 "," 5000",13.2,17.6," 4"," 5"," 5 Speed Manual","Tata",5,"Manual",0
+"Toyota Corolla Altis 2014","New Toyota Corolla Altis JS (Petrol)",1306324,"Sedan",1798," Petrol"," 1640 - 1670",175," 138.08 "," 6400",9.5,14.53," 4"," 5"," 6 Speed Manual","Toyota",6,"Manual",0
+"Toyota Etios","Toyota Etios J PS (Petrol)",603081,"Sedan",1496," Petrol",NA,170," 88.77 "," 5600",13.5,16.78," 4"," 5"," 5 Speed Manual","Toyota",5,"Manual",0
+"Toyota Etios Cross","Toyota Etios Cross 1.2 G (Petrol)",623000,"SUV",1197," Petrol",NA,170," 78.90 "," 5600`",13.3,17.71," 4"," 5"," 5 Speed Manual","Toyota",5,"Manual",0
+"Toyota Etios Liva","Toyota Etios Liva J PS (Petrol)",500145,"Hatchback",1197," Petrol",NA,170," 78.87 "," 5600",15.1,17.71," 4"," 5"," 5 Speed Manual","Toyota",5,"Manual",0
+"Toyota Etios Xclusive","Toyota Etios Xclusive (Petrol)",598139,"Sedan",1496," Petrol",NA,174," 88 "," 5600",13.5,16.78,NA," 5"," 5 Speed Manual","Toyota",5,"Manual",0
+"Toyota Fortuner","Toyota Fortuner 2WD Manual (Diesel)",2417200,"SUV",2982," Diesel"," 2510",220," 169 "," 3600",11.83425,12.55," 4"," 7"," 5 Speed Manual","Toyota",5,"Manual",1
+"Volkswagen Cross Polo","Volkswagen Cross Polo 1.2 MPI (Petrol)",699000,"Hatchback",1198," Petrol"," 1520",165," 74 "," 5400",12.2,16.5," 3"," 5"," 5 Speed Manual","Volkswagen",5,"Manual",0
+"Volkswagen New JETTA","Volkswagen Jetta 1.4L TSI MT Trendline (Petrol)",1370000,"Sedan",1390," Petrol",NA,159," 120 "," 5000",11.83425,14.69," 4"," 5"," 6 Speed Manual","Volkswagen",6,"Manual",0
+"Volkswagen New Phaeton","Volkswagen New Phaeton 3.6L (Petrol)",7729000,"Sedan",3597," Petrol",NA,128," 238 "," 4000",1.2,12.8," 6"," 5"," 6 Speed Automatic","Volkswagen",6,"Automatic",0
+"Volkswagen Passat","Volkswagen Passat Trendline MT (Diesel)",2206000,"Sedan",1968," Diesel"," 2180",150," 168 "," 4200",15.16,18.78," 4"," 5"," 6 Speed Manual","Volkswagen",6,"Manual",1
+"Volkswagen Polo","Volkswagen Polo 1.2L Trendline (Petrol)",535400,"Hatchback",1198," Petrol"," 1520",165," 73.97 "," 5400",11.83425,16.47," 3"," 5"," 5 Speed Manual","Volkswagen",5,"Manual",0
+"Volkswagen Polo GT","Volkswagen Polo GT TDI (Diesel)",799800,"Hatchback",1598," Diesel",NA,168," 104.5 "," 4400",13.7,19.7," 4"," 5"," 5 Speed Manual","Volkswagen",5,"Manual",1
+"Volkswagen Taigun","Volkswagen Taigun -Expected Specification",1178000,"SUV",1198," Petrol",NA,167," 108 "," 5000",11.83425,21," 3",NA," 6 Speed Manual","Volkswagen",6,"Manual",0
+"Volkswagen Up","Volkswagen Up – Expected Specification",360000,"Hatchback",1199," Petrol",NA,170," 74 "," 4200",11.83425,21," 3"," 5"," 5 Speed Manual","Volkswagen",5,"Manual",0
+"Volkswagen Vento","Volkswagen Vento Trendline (Petrol)",785000,"Sedan",1598," Petrol"," 1680",163," 103.56 "," 5250",12.02,16.09," 4"," 5"," 5 Speed Manual","Volkswagen",5,"Manual",0
+"Volvo S60","Volvo S60 Kinetic D4 (Diesel)",3190000,"Sedan",1984," Diesel",NA,136," 163 "," 3500",11.83425,18.5," 5"," 5"," 6 Speed Automatic","Volvo",6,"Automatic",1
+"Volvo S80","Volvo S80 Summum D4 (Diesel)",4135000,"Sedan",1984," Diesel"," 2190",151," 163 "," 3500",11.83425,16.66," 5"," 5"," 6 Speed Automatic","Volvo",6,"Automatic",1
+"Volvo V40","Volvo V40 D3 Kinetic (Diesel)",2475000,"Hatchback",1969," Diesel"," 1980",145," 150 "," 3750",23.6,27.8," 4"," 5"," 6 Speed Automatic","Volvo",6,"Automatic",1
+"Volvo V40 Cross Country","Volvo V40 D3 Cross Country (Diesel)",3180000,"Hatchback",1984," Diesel",NA,145," 150 "," 3500",11.83425,16.8," 5"," 5"," 6 Speed Automatic","Volvo",6,"Automatic",1
+"Volvo XC90","Volvo XC 90 D5 Momentum(Diesel)",6490000,"SUV",1969," Diesel",NA,238," 225 "," 3900",8.4,11.1," 4"," 7"," 8 Speed Automatic","Volvo",8,"Automatic",1
