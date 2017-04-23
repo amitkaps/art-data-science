@@ -24,6 +24,4 @@ Case Studies
 - [Case #4 - Shining Diamonds](/diamonds/Diamonds.ipynb) - Price of Diamonds based on 4Cs (Carat, Colour, Cut and Clarity)
 - [Case #5 - Wine Selection](/wine/Wine.ipynb) - Selecting a good Red Wine to drink
 
-Exercises
-- Short Exercise (1 hour): [Link](/exercise/short.md)
-- Long Exercise (4-6 hours): [Link](/exercise/long.md)
+[Practice Exercises](/exercise.md)

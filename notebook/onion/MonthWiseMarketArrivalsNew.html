@@ -1,0 +1,714 @@
+<!DOCTYPE html>
+<html  lang="en-US">
+<head id="Head">
+<!--**********************************************************************************-->
+<!-- DotNetNuke - http://www.dotnetnuke.com                                          -->
+<!-- Copyright (c) 2002-2013                                                          -->
+<!-- by DotNetNuke Corporation                                                        -->
+<!--**********************************************************************************-->
+<title>
+	MonthWiseMarketArrivals
+</title><meta content="text/html; charset=UTF-8" http-equiv="Content-Type" /><meta content="text/javascript" http-equiv="Content-Script-Type" /><meta content="text/css" http-equiv="Content-Style-Type" /><meta http-equiv="X-UA-Compatible" content="IE=edge" /><meta id="MetaKeywords" name="KEYWORDS" content=",DotNetNuke,DNN" /><meta id="MetaCopyright" name="COPYRIGHT" content="Copyright 2017 by DNN Corp" /><meta id="MetaGenerator" name="GENERATOR" content="DotNetNuke " /><meta id="MetaAuthor" name="AUTHOR" content="NHRDF" /><meta name="RESOURCE-TYPE" content="DOCUMENT" /><meta name="DISTRIBUTION" content="GLOBAL" /><meta id="MetaRobots" name="ROBOTS" content="INDEX, FOLLOW" /><meta name="REVISIT-AFTER" content="1 DAYS" /><meta name="RATING" content="GENERAL" /><meta http-equiv="PAGE-ENTER" content="RevealTrans(Duration=0,Transition=1)" /><style id="StylePlaceholder" type="text/css"></style><link href="/portals/_default/default.css?cdv=20" type="text/css" rel="stylesheet"/><link href="/desktopmodules/icpc-counter/module.css?cdv=20" type="text/css" rel="stylesheet"/><link href="/portals/_default/skins/multifunction/skin.css?cdv=20" type="text/css" rel="stylesheet"/><link href="/portals/0/portal.css?cdv=20" type="text/css" rel="stylesheet"/><script src="/resources/shared/scripts/jquery/jquery.min.js?cdv=20" type="text/javascript"></script><script src="/resources/shared/scripts/jquery/jquery-migrate.min.js?cdv=20" type="text/javascript"></script><script src="/resources/shared/scripts/jquery/jquery-ui.min.js?cdv=20" type="text/javascript"></script></head>
+<body id="Body">
+    
+    <form method="post" action="/en-us/MonthWiseMarketArrivals" id="Form" enctype="multipart/form-data">
+<div class="aspNetHidden">
+<input type="hidden" name="StylesheetManager_TSSM" id="StylesheetManager_TSSM" value="" />
+<input type="hidden" name="ScriptManager_TSM" id="ScriptManager_TSM" value="" />
+<input type="hidden" name="__EVENTTARGET" id="__EVENTTARGET" value="" />
+<input type="hidden" name="__EVENTARGUMENT" id="__EVENTARGUMENT" value="" />
+<input type="hidden" name="__LASTFOCUS" id="__LASTFOCUS" value="" />
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="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" />
+</div>
+
+<script type="text/javascript">
+//<![CDATA[
+var theForm = document.forms['Form'];
+if (!theForm) {
+    theForm = document.Form;
+}
+function __doPostBack(eventTarget, eventArgument) {
+    if (!theForm.onsubmit || (theForm.onsubmit() != false)) {
+        theForm.__EVENTTARGET.value = eventTarget;
+        theForm.__EVENTARGUMENT.value = eventArgument;
+        theForm.submit();
+    }
+}
+//]]>
+</script>
+
+
+<script src="/WebResource.axd?d=1knB2eRKE3amd29o8XSqV0l862MdiP_EQ2UJZDxovoIBT9vwdSjJiMR6aTtchqBehAlibMAx1zreEbcO0&amp;t=636199024698160310" type="text/javascript"></script>
+
+
+<script src="/Telerik.Web.UI.WebResource.axd?_TSM_HiddenField_=ScriptManager_TSM&amp;compress=1&amp;_TSM_CombinedScripts_=%3b%3bSystem.Web.Extensions%2c+Version%3d4.0.0.0%2c+Culture%3dneutral%2c+PublicKeyToken%3d31bf3856ad364e35%3aen-US%3aab0488d2-2a95-4bc4-9f11-51ca4952d5f7%3aea597d4b%3ab25378d2" type="text/javascript"></script>
+<script src="/js/dnn.js" type="text/javascript"></script>
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="CA0B0334" />
+	<input type="hidden" name="__VIEWSTATEENCRYPTED" id="__VIEWSTATEENCRYPTED" value="" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="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" />
+</div><script type="text/javascript">
+//<![CDATA[
+Sys.WebForms.PageRequestManager._initialize('ScriptManager', 'Form', [], [], [], 90, '');
+//]]>
+</script>
+
+        <script src="/js/dnn.modalpopup.js?cdv=20" type="text/javascript"></script><script src="/js/dnn.servicesframework.js?cdv=20" type="text/javascript"></script><script src="/js/dnncore.js?cdv=20" type="text/javascript"></script>
+        
+        
+<script src="../../../../js/textsizer.js"></script>
+<link href="../css/stylesheet.css" rel="stylesheet" />
+<div class="wrapper">
+    <!--wrapper starts-->
+    <div id="dnn_engDiv" class="container">
+        <div class="tophead">
+            <!--tophead starts-->
+            <span class="logo"><a href="http://nhrdf.com/en-us/home">
+                <img width="461" height="72" src="/portals/0/Images/logo.png" alt="nhrdf-logo" /></a></span>
+            <span class="toplnk">
+                <ul>
+                    <li><span>Text Size</span><a href="javascript:decreaseFontSize();" class="line">&nbsp;&nbsp;A -</a>&nbsp;&nbsp;<a href="javascript:increaseFontSize();">&nbsp;&nbsp;A+</a></li>
+                    <li>
+                        
+<link href="../../css/stylesheet.css" rel="stylesheet" />
+
+<select name="dnn$dnnLANG$selectCulture" onchange="javascript:setTimeout(&#39;__doPostBack(\&#39;dnn$dnnLANG$selectCulture\&#39;,\&#39;\&#39;)&#39;, 0)" id="dnn_dnnLANG_selectCulture" class="language">
+	<option selected="selected" value="en-US">English (United States)</option>
+	<option value="hi-IN">Hindi (India)</option>
+
+</select>
+
+
+                    </li>
+                </ul>
+            </span>
+            <span class="srch">           
+              <input type="text" value="Search.." name="query" id="srcid" class="text">
+              <input type="button" id="submitButton" onclick="window.location = 'http://myhealthdiary.com/en-us/search?Search=' + encodeURI(document.getElementById('srcid').value)" style="background:url(../images/srch-icon.png) no-repeat center; cursor:pointer; border:none; outline:none; width:45px; height:29px; color:#ffffff; float:left; border-top:1px solid #e7e7e7; border-right:1px solid #e7e7e7; border-bottom:1px solid #e7e7e7;">
+              <br>
+        </span>
+        </div>
+    </div>
+    
+    <div id="dnn_navPane"><div class="DnnModule DnnModule-DNN_HTML DnnModule-474"><a name="474"></a>
+<div class="ContainerWrapper">
+    <div class="dnnClear">
+        <div id="dnn_ctr474_ContentPane" class="ContainerPane"><!-- Start_Module_474 --><div id="dnn_ctr474_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr474_HtmlModule_lblContent" class="Normal">
+	<div class="menu">
+<ul id="nav">
+    <li class="top"><a class="top_link" href="/en-us/home"><strong> Home </strong></a><span class="pipe">|</span></li>
+    <li class="top split"><a class="top_link" href="/en-us/about"> <strong> About </strong></a><span class="pipe">|</span>
+    <ul class="sub">
+        <li><a href="/en-us/about">About NHRDF</a></li>
+        <!-- <li><a href="/en-us/photogallery">Photo Gallery</a></li> -->
+        <li><a href="/en-us/Organisation">Organisation</a></li>
+        <li><a href="/en-us/Centres">NHRDF Centres</a></li>
+        <li><a href="/en-us/Technology">Transfer of Technology</a></li>
+        <li><a href="/en-us/Programmes">Training Programmes</a></li>
+        <li><a href="/en-us/DownloadsFiles"> Downloads </a></li>
+    </ul>
+    </li>
+    <li class="top split"><a class="top_link" href="/en-us/Crops"> <strong>Crops </strong></a><span class="pipe">|</span>
+    <!-- <ul class="sub">
+        <li><a href="/en-us/cOnion">Onion</a></li>
+        <li><a href="/en-us/cPotato">Potato</a></li>
+        <li><a href="/en-us/cGarlic">Garlic</a></li>
+    </ul> -->
+    </li>
+    <li class="top"><a class="top_link" href="/en-us/Seeds"> <strong>Seeds </strong></a><span class="pipe">|</span></li>
+    <li class="top"><a class="top_link" href="/en-us/DatabaseReports"> <strong> Database </strong></a><span class="pipe">|</span></li>
+    <li class="top split"><a class="top_link" href="/en-us/RnD"> <strong> R &amp; D </strong></a><span class="pipe">|</span>
+    <ul class="sub">
+        <li><a href="/en-us/Onion">Onion</a></li>
+        <li><a href="/en-us/Potato">Garlic</a></li>
+        <li><a href="/en-us/Garlic">Okra</a></li>
+        <li><a href="/en-us/ThrustAreas">Thrust Areas</a></li>
+    </ul>
+    </li>
+    <li class="top"><a class="top_link" href="/en-us/Services"><strong> Services </strong></a><span class="pipe">|</span></li>
+    <li class="top"><a class="top_link" href="/en-us/Publications"> <strong> Publications </strong></a><span class="pipe">|</span></li>
+    <li class="top"><a class="top_link" href="#"> <strong> Contact Us </strong></a>
+    <ul class="sub">
+        <li><a href="/en-us/Head Office">Head Office</a></li>
+        <li><a href="/en-us/NHRDF-Centres">NHRDF Centres</a></li>
+        <li><a href="/en-us/Contact">Inquiry</a></li>
+    </ul>
+    </li>
+</ul>
+</div>
+<!--menu-->
+</div>
+
+</div><!-- End_Module_474 --></div>
+    </div>
+</div>
+
+
+
+
+</div></div>
+    <div id="dnn_banerPane" class="banbg DNNEmptyPane"></div>
+    <div id="dnn_innerPageContentPane" class="container">
+
+    <div class="DnnModule DnnModule-DNN_HTML DnnModule-973"><a name="973"></a>
+<div class="ContainerWrapper">
+    <div class="dnnClear">
+        <div id="dnn_ctr973_ContentPane" class="ContainerPane"><!-- Start_Module_973 --><div id="dnn_ctr973_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr973_HtmlModule_lblContent" class="Normal">
+	
+</div>
+
+</div><!-- End_Module_973 --></div>
+    </div>
+</div>
+
+
+
+
+</div><div class="DnnModule DnnModule-MonthWiseMarketArrivals DnnModule-974"><a name="974"></a>
+<div class="ContainerWrapper">
+    <div class="dnnClear">
+        <div id="dnn_ctr974_ContentPane" class="ContainerPane"><!-- Start_Module_974 --><div id="dnn_ctr974_ModuleContent" class="DNNModuleContent ModMonthWiseMarketArrivalsC">
+	
+
+  
+  <br />
+      
+
+       <table width="70%" align="center">
+      <tr>
+       <td align="center">
+        <span id="dnn_ctr974_MonthWiseMarketArrivals_lbltext" style="color:#075300;font-weight:bold;">MONTH WISE MARKET ARRIVALS AND PRICES</span>
+       </td>
+      </tr>
+     </table>
+     <br />
+            <table width="80%"  style="border: medium solid #075300" 
+  align="center">
+                <tr>
+                    <td  align="right">
+                         <span id="dnn_ctr974_MonthWiseMarketArrivals_Label1">Crop Name : </span>
+                         </td>
+                    <td align="left">
+                        <select name="dnn$ctr974$MonthWiseMarketArrivals$Crop" id="dnn_ctr974_MonthWiseMarketArrivals_Crop">
+		<option value="">Select</option>
+		<option value="3">Garlic</option>
+		<option value="1">Onion</option>
+		<option value="2">Potato</option>
+		<option value="4">Tomato</option>
+
+	</select>
+                    </td>
+                    <td  align="right">
+                     <span id="dnn_ctr974_MonthWiseMarketArrivals_Label2"> Market :</span>
+                       
+                         </td>
+                    <td align="left" > 
+                        <select size="4" name="dnn$ctr974$MonthWiseMarketArrivals$Market" multiple="multiple" id="dnn_ctr974_MonthWiseMarketArrivals_Market">
+		<option value="">All</option>
+		<option value="59">ABOHAR(PB)</option>
+		<option value="53">AGRA(UP)</option>
+		<option value="30">AHMEDABAD(GUJ)</option>
+		<option value="25">AHMEDNAGAR(MS)</option>
+		<option value="198">AIGINIA MANDIA (OR)</option>
+		<option value="84">AJMER(RAJ)</option>
+		<option value="115">ALIGARH(UP)</option>
+		<option value="166">ALLAHABAD(UP)</option>
+		<option value="131">ALWAR(RAJ)</option>
+		<option value="58">AMRITSAR(PB)</option>
+		<option value="133">ANGUL(OR)</option>
+		<option value="199">ASANSOL (WB)</option>
+		<option value="170">AURANGABAD(MS)</option>
+		<option value="172">BABAIN (HR)</option>
+		<option value="176">BAHADAJHOLLA (OR)</option>
+		<option value="134">BALLIA(UP)</option>
+		<option value="118">BAMPADA(OR)</option>
+		<option value="177">BANDA (UP)</option>
+		<option value="200">BANDROL (HP)</option>
+		<option value="31">BANGALORE</option>
+		<option value="135">BAREILLY(UP)</option>
+		<option value="122">BARGARH(OR)</option>
+		<option value="136">BARIPADA(OR)</option>
+		<option value="178">BARNALA (PB)</option>
+		<option value="76">BELGAUM(KNT)</option>
+		<option value="139">BETNOTI(OR)</option>
+		<option value="78">BHATINDA(PB)</option>
+		<option value="9">BHAVNAGAR(GUJ)</option>
+		<option value="32">BHOPAL</option>
+		<option value="33">BHUBNESWER(OR)</option>
+		<option value="60">BIHARSHARIF(BHR)</option>
+		<option value="21">BIJAPUR(KNT)</option>
+		<option value="140">BIKANER(RAJ)</option>
+		<option value="179">BINNY MILL (KNT)</option>
+		<option value="28">BOMBORI(MS)</option>
+		<option value="168">BOWENPALLY(Telangana)</option>
+		<option value="99">BULANDSHAHR</option>
+		<option value="88">BURDWAN(WB)</option>
+		<option value="7">CHAKAN(MS)</option>
+		<option value="201">CHALA (KER)</option>
+		<option value="77">CHALLAKERE(KNT)</option>
+		<option value="36">CHANDIGARH</option>
+		<option value="180">CHANDRAPUR-GANJWAD (MS)</option>
+		<option value="102">CHANDVAD(MS)</option>
+		<option value="44">CHENNAI</option>
+		<option value="62">CHICKBALLAPUR(KNT)</option>
+		<option value="181">CHINTAMANI (KNT)</option>
+		<option value="137">CHOMU(RAJ)</option>
+		<option value="158">COIMBATORE(TN) (bellary)</option>
+		<option value="159">COIMBATORE(TN) (podisu)</option>
+		<option value="138">DEESA(GUJ)</option>
+		<option value="111">DEHRADOON(UTT)</option>
+		<option value="37">DELHI</option>
+		<option value="156">DELHI (FRESH)</option>
+		<option value="163">DELHI (Others)</option>
+		<option value="162">DELHI (Rajasthan)</option>
+		<option value="157">DELHI (STORED)</option>
+		<option value="132">DEORIA(UP)</option>
+		<option value="114">DEVALA(MS)</option>
+		<option value="71">DEWAS(MP)</option>
+		<option value="64">DHAVANGERE(KNT)</option>
+		<option value="29">DHULIA(MS)</option>
+		<option value="182">DHUPGURI (WB)</option>
+		<option value="14">DINDIGUL(TN)</option>
+		<option value="13">DINDIGUL(TN)(Podis</option>
+		<option value="124">DINDORI(MS)</option>
+		<option value="126">ETAH (UP)</option>
+		<option value="160">ETAWAH(UP)</option>
+		<option value="96">FAIZABAD(UP)</option>
+		<option value="202">FARIDABAD (HR)</option>
+		<option value="63">FARUKHABAD(UP)</option>
+		<option value="142">FIROZEPURCITY(PB)</option>
+		<option value="38">GANGATOK</option>
+		<option value="196">GHAZIABAD (UP)</option>
+		<option value="161">GHIROR(UP)</option>
+		<option value="23">GONDAL(GUJ)</option>
+		<option value="141">GORAKHPUR(UP)</option>
+		<option value="183">GUDIMALKAPUR (TELANGANA)</option>
+		<option value="75">GULBARGA(KNT)</option>
+		<option value="216">GUNDLUPET (KNT)</option>
+		<option value="120">GUNPUR(OR)</option>
+		<option value="143">GURGAON(HR)</option>
+		<option value="39">GUWAHATI</option>
+		<option value="144">HALDWANI(UTT)</option>
+		<option value="184">HAMIRPUR (UP)</option>
+		<option value="65">HASSAN(KNT)</option>
+		<option value="185">HINJILICUT (OR)</option>
+		<option value="105">HOSHIARPUR(PB)</option>
+		<option value="203">HOWLY (AS)</option>
+		<option value="186">HOWRAH (WB)</option>
+		<option value="22">HUBLI(KNT)</option>
+		<option value="40">HYDERABAD</option>
+		<option value="103">IMPHAL</option>
+		<option value="17">INDORE(MP)</option>
+		<option value="164">JABALPUR (MP)</option>
+		<option value="41">JAIPUR</option>
+		<option value="42">JALANDHAR(PB)</option>
+		<option value="91">JALGAON(MS)</option>
+		<option value="95">JALGAON(WHITE)</option>
+		<option value="51">JAMMU</option>
+		<option value="61">JAMNAGAR(GUJ)</option>
+		<option value="145">JAMSHEDPUR(JH)</option>
+		<option value="83">JAORA(MP)</option>
+		<option value="119">JATNI(OR)</option>
+		<option value="187">JAUNPUR (UP)</option>
+		<option value="146">JHANSI(UP)</option>
+		<option value="101">JODHPUR(RAJ)</option>
+		<option value="106">JUNNAR(MS)</option>
+		<option value="188">K.R.NAGAR (KNT)</option>
+		<option value="93">KALVAN(MS)</option>
+		<option value="54">KANPUR(UP)</option>
+		<option value="18">KARNAL(HR)</option>
+		<option value="147">KEONJHAR(OR)PANIPAT(PB)</option>
+		<option value="72">KHANDWA(MP)</option>
+		<option value="87">KHANNA(PB)</option>
+		<option value="66">KOLAR(KNT)</option>
+		<option value="81">KOLHAPUR(MS)</option>
+		<option value="35">KOLKATA</option>
+		<option value="27">KOPERGAON(MS)</option>
+		<option value="100">KOTA(RAJ)</option>
+		<option value="70">KULLU(HP)</option>
+		<option value="20">KURNOOL(AP)</option>
+		<option value="204">L B NAGAR (TELANGANA)</option>
+		<option value="1">LASALGAON(MS)</option>
+		<option value="8">LONAND(MS)</option>
+		<option value="43">LUCKNOW</option>
+		<option value="79">LUDHIANA(PB)</option>
+		<option value="189">MADANAPALLE (AP)</option>
+		<option value="57">MADURAI(TN)</option>
+		<option value="10">MAHUVA(GUJ)</option>
+		<option value="127">MAINPURI (UP)</option>
+		<option value="92">MALEGAON(MS)</option>
+		<option value="205">MANDI(TAKOLI) (HP)</option>
+		<option value="82">MANDSOUR(MP)</option>
+		<option value="5">MANMAD(MS)</option>
+		<option value="167">MATHURA (UP)</option>
+		<option value="97">MEERUT(UP)</option>
+		<option value="116">MIDNAPUR(WB)</option>
+		<option value="206">MULAKALACHERUVU (AP)</option>
+		<option value="194">MULAKALACHERUVU (AP)</option>
+		<option value="213">MULBAGAL (KNT)</option>
+		<option value="34">MUMBAI</option>
+		<option value="12">MYDUKUR(AP)</option>
+		<option value="19">MYDUKUR_Rose.O</option>
+		<option value="190">MYSORE -BANDIPALYA (KNT)</option>
+		<option value="214">NAGAMANGALA (KNT)</option>
+		<option value="45">NAGPUR</option>
+		<option value="171">NAMPUR(MS)</option>
+		<option value="110">NANDGAON(MS)</option>
+		<option value="16">NASIK DISTT.(ALL)</option>
+		<option value="52">NASIK(MS)</option>
+		<option value="85">NEEMUCH(MP)</option>
+		<option value="128">NEWASA(MS)</option>
+		<option value="3">NIPHAD(MS)</option>
+		<option value="73">NIZAMABAD(AP)</option>
+		<option value="195">PALAMANER (AP)</option>
+		<option value="207">PALAMANER (AP)</option>
+		<option value="121">PALAYAM(KER)</option>
+		<option value="148">PANIPAT(PB)</option>
+		<option value="208">PAONTA SAHIB (HP)</option>
+		<option value="149">PATHANKOT(PB)</option>
+		<option value="80">PATIALA(PB)</option>
+		<option value="46">PATNA</option>
+		<option value="109">PHALTAN (MS)</option>
+		<option value="2">PIMPALGAON(MS)</option>
+		<option value="175">PIPLYA (M.P.)</option>
+		<option value="165">PRATAPGARH (RJ)</option>
+		<option value="11">PUNE(MS)</option>
+		<option value="209">PUNGANUR (AP)</option>
+		<option value="117">PURULIA(WB)</option>
+		<option value="129">RAHATA(MS)</option>
+		<option value="24">RAHURI(MS)</option>
+		<option value="130">RAICHUR(KNT)</option>
+		<option value="210">RAIGARH (CHATT)</option>
+		<option value="123">RAIPUR(CHGARH)</option>
+		<option value="108">RAJAHMUNDRY(AP)</option>
+		<option value="15">RAJKOT(GUJ)</option>
+		<option value="55">RANCHI(JH)</option>
+		<option value="68">RATLAM(MP)</option>
+		<option value="74">SADASIVPET(AP)</option>
+		<option value="150">SAGAR(MP)</option>
+		<option value="151">SAHARANPUR(UP)</option>
+		<option value="4">SAIKHEDA(MS)</option>
+		<option value="169">SAKRI(MS)</option>
+		<option value="218">SANCHOR (RAJ)</option>
+		<option value="211">SANCHORE (RAJ)</option>
+		<option value="94">SANGALI(MS)</option>
+		<option value="107">SANGAMNER(MS)</option>
+		<option value="104">SATANA(MS)</option>
+		<option value="191">SEALDAH KOLEY MARKET (WB)</option>
+		<option value="98">SHAHJAHANPUR</option>
+		<option value="174">SHAJAPURF&amp;V) (MP)</option>
+		<option value="152">SHEROAPHULY(WB)</option>
+		<option value="47">SHIMLA</option>
+		<option value="173">SHIVPURI(F&amp;V) (MP)</option>
+		<option value="112">SHRIRAMPUR(MS)</option>
+		<option value="6">SINNAR(MS)</option>
+		<option value="113">SITAPUR(UP)</option>
+		<option value="197">SOLAN (HP)</option>
+		<option value="89">SOLAPUR(MS)</option>
+		<option value="153">SRIGANGANAGAR(RAJ)</option>
+		<option value="48">SRINAGAR</option>
+		<option value="192">SRINIVASAPUR (KNT)</option>
+		<option value="215">SRINIVASPUR (KNT)</option>
+		<option value="26">SRIRAMPUR(MS)</option>
+		<option value="56">SURAT(GUJ)</option>
+		<option value="212">TIPHRA (CHATT)</option>
+		<option value="49">TRIVENDRUM</option>
+		<option value="154">UDAIPUR(RAJ)</option>
+		<option value="67">UJJAIN(MP)</option>
+		<option value="155">VADODARA(GUJ)</option>
+		<option value="217">VADODARA-SAYAJIPURA (GUJ)</option>
+		<option value="125">VANI(MS)</option>
+		<option value="69">VARANASI(UP)</option>
+		<option value="50">VIJAYAWADA(AP)</option>
+		<option value="193">VISVADAR (GUJ)</option>
+		<option value="86">VIZINAGRAM(AP)</option>
+		<option value="90">YEOLA(MS)</option>
+
+	</select>
+                    </td>
+                    </tr>
+                    <tr>
+                    
+                    <td align="right" >
+                          <span id="dnn_ctr974_MonthWiseMarketArrivals_Label3"> Month :</span>
+                         </td>
+                    <td align="left" >
+                      <select size="4" name="dnn$ctr974$MonthWiseMarketArrivals$MonthName" multiple="multiple" id="dnn_ctr974_MonthWiseMarketArrivals_MonthName" style="height:82px;width:172px;">
+		<option value="">All</option>
+		<option value="1">January</option>
+		<option value="2">February</option>
+		<option value="3">March</option>
+		<option value="4">April</option>
+		<option value="5">May</option>
+		<option value="6">June</option>
+		<option value="7">July</option>
+		<option value="8">August</option>
+		<option value="9">September</option>
+		<option value="10">October</option>
+		<option value="11">November</option>
+		<option value="12">December</option>
+
+	</select>
+                    </td>
+                    <td align="right" >
+                        <span id="dnn_ctr974_MonthWiseMarketArrivals_Label4"> Year :</span>
+                         </td>
+                    <td align="left" >
+                        <select size="4" name="dnn$ctr974$MonthWiseMarketArrivals$Year" multiple="multiple" id="dnn_ctr974_MonthWiseMarketArrivals_Year" style="height:82px;width:172px;">
+		<option value="All">All</option>
+		<option value="2017">2017</option>
+		<option value="2016">2016</option>
+		<option value="2015">2015</option>
+		<option value="2014">2014</option>
+		<option value="2013">2013</option>
+		<option value="2012">2012</option>
+		<option value="2011">2011</option>
+		<option value="2010">2010</option>
+		<option value="2009">2009</option>
+		<option value="2008">2008</option>
+		<option value="2007">2007</option>
+		<option value="2006">2006</option>
+		<option value="2005">2005</option>
+		<option value="2004">2004</option>
+		<option value="2003">2003</option>
+		<option value="2002">2002</option>
+		<option value="2001">2001</option>
+		<option value="2000">2000</option>
+		<option value="1999">1999</option>
+		<option value="1998">1998</option>
+		<option value="1997">1997</option>
+		<option value="1996">1996</option>
+
+	</select>
+                    </td>
+                
+                </tr>
+                <tr>
+                    <td colspan="4" align="center">
+                        <input type="submit" name="dnn$ctr974$MonthWiseMarketArrivals$btnSearch" value="Search" id="dnn_ctr974_MonthWiseMarketArrivals_btnSearch" />
+                    </td>
+                </tr>
+            </table>
+            <br />
+       <table width="70%" align="center">
+        <tr>
+       <td align="center">
+         <span id="dnn_ctr974_MonthWiseMarketArrivals_lbl" style="color:#075300;font-weight:bold;"></span>
+         </td>
+         </tr>
+        </table>
+            <br />
+
+            <table width="80%" align="center">      
+            <tr>
+            <td>
+               
+                <div>
+
+	</div>
+
+                </td>
+            </tr>
+            
+            </table>
+                        
+                        
+                    
+         
+</div><!-- End_Module_974 --></div>
+    </div>
+</div>
+
+
+
+
+</div></div>
+    <div id="dnn_ContentPane" class="DNNEmptyPane"></div>
+
+    <div class="clr btm-margin"></div>
+
+    <div id="dnn_footerPane" class="footer"><div class="DnnModule DnnModule-DNN_HTML DnnModule-554"><a name="554"></a>
+<div class="ContainerWrapper">
+    <div class="dnnClear">
+        <div id="dnn_ctr554_ContentPane" class="ContainerPane"><!-- Start_Module_554 --><div id="dnn_ctr554_ModuleContent" class="DNNModuleContent ModDNNHTMLC">
+	<div id="dnn_ctr554_HtmlModule_lblContent" class="Normal">
+	<div class="ftrlinks">
+<ul>
+    <li><a href="/en-us/about">About Us</a> |</li>
+    <li><a href="/en-us/Crops">Crops</a> |</li>
+    <li><a href="/en-us/Seeds">Seeds</a> |</li>
+    <li><a href="/en-us/DatabaseReports">Database</a> |</li>
+    <li><a href="/en-us/RnD">R &amp; D</a> |</li>
+    <li><a href="/en-us/Services">Services</a> |</li>
+    <li><a href="/en-us/Publications">Publications</a> |</li>
+    <li><a href="/en-us/Contact">Contact Us</a> | </li>
+    <li><a href="/en-us/photogallery">Photo Gallery</a></li>
+</ul>
+<div class="clr margin-10"></div>
+<!--   <div class="addrs">
+<span class="dark-heading center">-: Head Office :-</span>
+<strong>NATIONAL HORTICULTURAL RESEARCH AND DEVELOPMENT FOUNDATION</strong><br />
+Chitegaon Phata, Nashik-Aurangabad Highway, Post: Darna Sangvi, Taluka: Niphad, District: Nashik (Maharashtra) PIN: 422001, INDIA<br />
+TEL: 02550-237816, 237551, 202422, FAX: 02550-237947 E-mail: <a href="mailto:nhrdf_nsk@sancharnet.in">nhrdf_nsk@sancharnet.in</a> | Website: www.nhrdf.com </div>
+</div> -->
+</div>
+</div>
+
+</div><!-- End_Module_554 --></div>
+    </div>
+</div>
+
+
+
+
+</div></div>
+    
+<div class="clr"></div>
+    <div class="copyright-bg">
+    <div id="dnn_copyrightPane" class="container">
+
+    <div class="DnnModule DnnModule-ICPC-Counter DnnModule-828"><a name="828"></a>
+<div class="ContainerWrapper">
+    <div class="dnnClear">
+        <div id="dnn_ctr828_ContentPane" class="ContainerPane"><!-- Start_Module_828 --><div id="dnn_ctr828_ModuleContent" class="DNNModuleContent ModICPCCounterC">
+	
+<span class="copyright" style="text-align:center">Copyright &copy; NATIONAL HORTICULTURAL RESEARCH AND DEVELOPMENT FOUNDATION - 2015. All Rights Reserved</span>
+
+<span class="count">Visitors Count :
+    <img id="dnn_ctr828_Counter_imgCounter" class="imgCnt" src="/DesktopModules/ICPC-Counter/CounterDisplay.aspx?src=images\sgrey.gif&amp;digits=8&amp;hitcount=806228" /></span>
+</div><!-- End_Module_828 --></div>
+    </div>
+</div>
+
+
+
+
+</div></div>
+    </div>
+</div>
+<!--wrapper ends-->
+<!--font size script-->
+<script type="text/javascript" src="../js/coin-slider.min.js"></script>
+<!--following script function is for Coin Slider - Main Banner -->
+<script>$(document).ready(function () {
+    $('#games').coinslider({ hoverPause: false });
+});
+</script>
+<!-- Modern Ticker for Play Pause Highlights news -->
+<script src="../js/jquery.modern-ticker.min.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+
+    $(function () {
+        $(".ticker1").modernTicker({
+            effect: "scroll",
+            scrollInterval: 20,
+            transitionTime: 500,
+            autoplay: true
+        });
+
+    });
+
+</script>
+
+<!-- following script for onclick sliding icon strip -->
+<script src="../js/jquery.flexisel.js"></script>
+<script type="text/javascript">
+    $(window).load(function () {
+        $("#flexiselDemo1").flexisel();
+        $("#flexiselDemo2").flexisel({
+            enableResponsiveBreakpoints: true,
+            responsiveBreakpoints: {
+                portrait: {
+                    changePoint: 480,
+                    visibleItems: 1
+                },
+                landscape: {
+                    changePoint: 640,
+                    visibleItems: 2
+                },
+                tablet: {
+                    changePoint: 768,
+                    visibleItems: 3
+                }
+            }
+        });
+
+    });
+</script>
+
+<!--following script is for TENDERS & NEWS onmouse hover scrolling -->
+<script type="text/javascript">
+
+    scrollStep = 1
+
+    timerUp = "";
+    timerDown = "";
+    timerLeft = "";
+    timerRight = "";
+
+    function toTop(id) {
+        document.getElementById(id).scrollTop = 0;
+    }
+
+    function toLeft(id) {
+        document.getElementById(id).scrollLeft = 0;
+    }
+
+    function scrollDivLeft(id) {
+        clearTimeout(timerRight);
+        document.getElementById(id).scrollLeft += scrollStep;
+        timerRight = setTimeout("scrollDivLeft('" + id + "')", 10);
+    }
+
+    function scrollDivRight(id) {
+        clearTimeout(timerLeft);
+        document.getElementById(id).scrollLeft -= scrollStep;
+        timerLeft = setTimeout("scrollDivRight('" + id + "')", 10);
+    }
+
+
+
+    function toRight(id) {
+        document.getElementById(id).scrollLeft = document.getElementById(id).scrollWidth;
+    }
+
+    function scrollDivDown(id) {
+        clearTimeout(timerDown);
+        document.getElementById(id).scrollTop += scrollStep;
+        timerDown = setTimeout("scrollDivDown('" + id + "')", 10);
+    }
+
+    function scrollDivUp(id) {
+        clearTimeout(timerUp);
+        document.getElementById(id).scrollTop -= scrollStep;
+        timerUp = setTimeout("scrollDivUp('" + id + "')", 10);
+    }
+
+    function toBottom(id) {
+        document.getElementById(id).scrollTop = document.getElementById(id).scrollHeight;
+    }
+
+    function stopMe() {
+        clearTimeout(timerDown);
+        clearTimeout(timerUp);
+        clearTimeout(timerLeft);
+        clearTimeout(timerRight);
+    }
+
+</script>
+
+
+        <input name="ScrollTop" type="hidden" id="ScrollTop" />
+        <input name="__dnnVariable" type="hidden" id="__dnnVariable" autocomplete="off" value="`{`__scdoff`:`1`,`sf_siteRoot`:`/en-us/`,`sf_tabId`:`393`}" />
+        
+    
+<script type="text/javascript" src="/Resources/Shared/scripts/initWidgets.js" ></script></form>
+    
+    
+
+</body>
+</html>

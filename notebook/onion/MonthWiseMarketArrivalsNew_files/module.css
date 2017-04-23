@@ -1,0 +1,12 @@
+/* ================================
+    CSS STYLES FOR Module Counter
+   ================================
+*/
+
+.copyright-bg{ width:100%; background-color:#037776; margin:0; padding:3px 0; display:block; height:28px;}
+.copyright{ float:left; color:#FFF; text-decoration:none; text-align:left; line-height:16px; font-size:12px; font-weight:normal; padding:6px 0; }
+
+.count{ float:right; color:#FFF; text-decoration:none; line-height:16px; font-size:12px; font-weight:normal; padding:6px 0; }
+.imgCnt {
+    padding-top :  3px;
+}

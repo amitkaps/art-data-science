@@ -1,5 +1,5 @@
 ---
-title: "R Notebook"
+title: "Onion Price and Quantity"
 output: html_notebook
 ---
 
@@ -92,7 +92,7 @@ head(df2016City)
 
 ```{r}
 ggplot(df2016City) + 
-  aes(reorder(city, quantity_year),weight = quantity_year) + 
+  aes(reorder(city, quantity_year),weight = quantity_year, fill=city) + 
   geom_bar() + 
   coord_flip()
 
@@ -105,6 +105,7 @@ dfCity <- df %>%
           filter( city %in% cities)
 dim(dfCity)  
 ggplot(dfCity) + aes(date, priceMod, color=city) + geom_line()
+
 g <- ggplot(dfCity) + aes(date, priceMod, color=city) + geom_line()
 ggplotly(g)
 
@@ -141,12 +142,16 @@ forecast <- predict(m, future)
 tail(forecast[c('ds', 'yhat', 'yhat_lower', 'yhat_upper')])
 
 plot(m, forecast)
+```
+
+```{r}
 prophet_plot_components(m, forecast)
 
 ```
 
 
 # Insight
+
 ```{r}
 uniqcity <- unique(dfCity$city)
 geo <- geocode(uniqcity)
@@ -154,6 +159,8 @@ dfGeo <- bind_cols(df2016City, geo)
 dfGeo
 ggplot(dfGeo) + aes(lon, lat, size=quantity_year/1000) + geom_point() + coord_map()
 ```
+
+
 
 ```{r}
 map <- get_map("India", zoom = 5)
