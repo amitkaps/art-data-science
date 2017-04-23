@@ -1,0 +1,165 @@
+---
+title: "R Notebook"
+output: html_notebook
+---
+
+# Frame
+
+```{r}
+setwd("~/Dropbox/github/art-data-science/notebook/onion")
+library(rvest)
+library(dplyr)
+library(tidyr)
+library(stringr)
+library(ggplot2)
+library(plotly)
+library(prophet)
+library(ggmap)
+```
+
+# Acquire
+
+```{r}
+pg.out <- read_html("MonthWiseMarketArrivalsNew.htm")
+pg.table <- pg.out %>%
+            html_node("#dnn_ctr974_MonthWiseMarketArrivals_GridView1") %>%
+            html_table()
+str(pg.table)
+df <- pg.table
+```
+
+# Refine 
+
+```{r}
+dim(df)
+column_names <- c('market', 'month', 'year', 'quantity', 'priceMin', 'priceMax', 'priceMod')
+colnames(df) <- column_names
+head(df)
+tail(df)
+df <- df %>%
+      filter(year != "Total")
+dim(df)
+```
+
+
+```{r}
+df$quantity <- as.numeric(df$quantity)
+df$year     <- as.numeric(df$year)
+df$priceMin <- as.numeric(df$priceMin)
+df$priceMax <- as.numeric(df$priceMax)
+df$priceMod <- as.numeric(df$priceMod)
+str(df)
+```
+
+
+```{r}
+df <- df %>%
+      mutate(market1 = market) %>%
+      separate(market1, c("city", "state"), sep = "\\(")
+df$state <- df$state %>% str_replace("\\)","")
+df <- df %>%
+      mutate(state = ifelse(is.na(state), market, state))
+head(df)
+```     
+
+```{r}
+df <- df %>%
+      mutate(date = paste(month, year, sep="-"))
+df$date = as.Date(paste("01-",df$date,sep=""), "%d-%B-%Y")
+str(df)
+```
+ 
+
+# Transform
+```{r}
+df2016 <- df %>%
+          filter(year == 2016)
+head(df2016)
+```
+
+Split-Apply-Combine
+```{r}
+df2016City <- df %>%
+              filter(year == 2016) %>%
+              group_by(city) %>%
+              summarise(quantity_year = sum(quantity)) %>%
+              arrange(desc(quantity_year)) %>%
+              filter(quantity_year > 2500000)
+head(df2016City)
+```
+
+# Explore 
+
+```{r}
+ggplot(df2016City) + 
+  aes(reorder(city, quantity_year),weight = quantity_year) + 
+  geom_bar() + 
+  coord_flip()
+
+```
+
+```{r}
+cities <- unique(df2016City$city)
+cities
+dfCity <- df %>%
+          filter( city %in% cities)
+dim(dfCity)  
+ggplot(dfCity) + aes(date, priceMod, color=city) + geom_line()
+g <- ggplot(dfCity) + aes(date, priceMod, color=city) + geom_line()
+ggplotly(g)
+
+```
+
+```{r}
+dfCityTall <- dfCity %>%
+              gather("priceType", "priceValue",5:7) %>%
+              arrange(date)
+ggplot(dfCityTall) + aes(date, y = priceValue, color = priceType) + geom_line() + facet_wrap(~city)
+
+```
+
+
+# Model
+
+```{r}
+dfBang <- df %>%
+  filter(city == "BANGALORE") %>%
+  select(date, priceMod) %>%
+  arrange(date)
+
+ggplot(dfBang) + aes(date, priceMod) + geom_line()
+```
+  
+```{r}
+colnames(dfBang) <- c('ds', 'y')
+str(dfBang)
+m <- prophet(dfBang)
+
+future <- make_future_dataframe(m, periods = 12)
+tail(future)
+forecast <- predict(m, future)
+tail(forecast[c('ds', 'yhat', 'yhat_lower', 'yhat_upper')])
+
+plot(m, forecast)
+prophet_plot_components(m, forecast)
+
+```
+
+
+# Insight
+```{r}
+uniqcity <- unique(dfCity$city)
+geo <- geocode(uniqcity)
+dfGeo <- bind_cols(df2016City, geo)
+dfGeo
+ggplot(dfGeo) + aes(lon, lat, size=quantity_year/1000) + geom_point() + coord_map()
+```
+
+```{r}
+map <- get_map("India", zoom = 5)
+ggmap(map)
+map1 <- get_map("India", maptype = "watercolor", source = "stamen", zoom = 5)
+ggmap(map1)
+ggmap(map1) + geom_point(data = dfGeo,aes(lon,lat,size=quantity_year/1000,color=city))
+```
+
