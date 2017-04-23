@@ -13,8 +13,7 @@ library(tidyr)
 library(stringr)
 library(ggplot2)
 library(plotly)
-library(prophet)
-library(ggmap)
+dflibrary(ggmap)
 ```
 
 # Acquire
@@ -136,7 +135,7 @@ colnames(dfBang) <- c('ds', 'y')
 str(dfBang)
 m <- prophet(dfBang)
 
-future <- make_future_dataframe(m, periods = 12)
+future <- make_future_dataframe(m, periods = 12, freq = 'm')
 tail(future)
 forecast <- predict(m, future)
 tail(forecast[c('ds', 'yhat', 'yhat_lower', 'yhat_upper')])
