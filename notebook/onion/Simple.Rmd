@@ -13,7 +13,7 @@ library(tidyr)
 library(stringr)
 library(ggplot2)
 library(plotly)
-dflibrary(ggmap)
+library(ggmap)
 ```
 
 # Acquire
@@ -92,7 +92,7 @@ head(df2016City)
 ```{r}
 ggplot(df2016City) + 
   aes(reorder(city, quantity_year),weight = quantity_year, fill=city) + 
-  geom_bar() + 
+  geom_bar() +
   coord_flip()
 
 ```
