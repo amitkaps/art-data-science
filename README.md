@@ -8,7 +8,7 @@
 - [Intro to Art of Data Science](/notebook/Intro-Art-of-Data-Science.ipynb) - The overall introduction to the workshop.
 - [Intro to Data Structures in Python](/notebook/Intro-Python.ipynb) - Get started with Python.
 - [Intro to Data Structures in R](/notebook/intro-to-r.ipynb) - Get started with R.
-- [Intro to Visualisation in R](/notebook/intro-viz.ipynb) - Visualisation with Python.
+- [Intro to Visualisation in R](/notebook/intro-viz.ipynb) - Visualisation with R.
 
 Case Studies
 - [Case #1 - Peeling the Onion](/notebook/onion) - Price & Quantity of Onion across in India.

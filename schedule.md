@@ -5,10 +5,9 @@
 ### Session 1: (1000 - 1130)
 - Overview of Data Science
 - Introduction to Hypothesis Driven Approach
-- Data Science Process: Frame - Acquire - Refine - Explore - Model - Insight
+- Data Science Process: Frame - Acquire - Refine - Explore - Model - Insight - Build - Deploy
 - How to use Jupyter Notebook
-- Intro to Data Structures in Python
-- Exploring the Onion Price and Quantity
+- Intro to Data Structures in Python (Optional)
 
 ### Session 2: (1145 - 1330)
 - Case 1: Peeling the Onion
@@ -21,8 +20,8 @@
 - Communicating the Insights
 
 ### Session 4: (1615 - 1800)
-- Case 2: Movies
-- Case 3: Diamonds
+- Communicating the Insights (contd.)
+- Build & Deploy
 - Next Steps
 - Wrap-up and Feedback
 
@@ -32,6 +31,6 @@
 ===================================================================
 
 ### Food and Hydration
-- 1115 - 1135: Tea Break
-- 1300 - 1400: Lunch
-- 1530 - 1550: Tea Break
+- 1130 - 1145: Tea Break
+- 1330 - 1430: Lunch
+- 1600 - 1615: Tea Break
