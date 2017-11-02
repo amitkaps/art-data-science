@@ -1,31 +1,29 @@
 # Schedule
 
-### Session 0: Installation (0930 - 1000)
+### Session 0: Installation (0900 - 0930)
 
-### Session 1: (1000 - 1130)
+### Session 1: (0930 - 1130)
 - Overview of Data Science
 - Introduction to Hypothesis Driven Approach
 - Data Science Process: Frame - Acquire - Refine - Explore - Model - Insight - Build - Deploy
-- How to use Jupyter Notebook
-- Intro to Data Structures in Python (Optional)
-
-### Session 2: (1145 - 1330)
-- Case 1: Peeling the Onion
+- Intro to Data Structures
 - Acquire the Data
+
+### Session 2: (1130 - 1315)
 - Refine the Data
 - Transform the Data
 
-### Session 3: (1430 - 1600)
+### Session 3: (1400 - 1530)
 - Model the Problem
 - Communicating the Insights
 
-### Session 4: (1615 - 1800)
+### Session 4: (1545 - 1730)
 - Communicating the Insights (contd.)
 - Build & Deploy
 - Next Steps
 - Wrap-up and Feedback
 
-### Optional Session (1800 - 1900)
+### Optional Session (1730 - 1800)
 - Office Hours
 
 ===================================================================

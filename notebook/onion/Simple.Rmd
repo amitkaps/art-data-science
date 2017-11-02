@@ -7,6 +7,7 @@ output: html_notebook
 
 ```{r}
 setwd("~/Dropbox/github/art-data-science/notebook/onion")
+
 library(rvest)
 library(dplyr)
 library(tidyr)
@@ -14,6 +15,7 @@ library(stringr)
 library(ggplot2)
 library(plotly)
 library(ggmap)
+library(prophet)
 ```
 
 # Acquire

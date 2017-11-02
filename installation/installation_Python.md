@@ -6,9 +6,10 @@
 * Laptop charger
 
 ## Recommended Installation
-We will be using Python 3 version for the workshop. Users should install the Anaconda distribution from Continuum - [https://www.continuum.io/downloads](https://www.continuum.io/downloads). We request you to check if your Operating System is 32 bit or 64 bit and download the according Anaconda installer
+We will be using Python 3 version for the workshop. Users should install the Anaconda distribution from Continuum - [https://www.continuum.io/downloads](https://www.continuum.io/downloads). 
 
-To find out what architecture your OS is, here are references for Windows, OSX and Ubuntu:
+
+We request you to check if your Operating System is 32 bit or 64 bit and download the according installer. To find out what architecture your OS is, here are references for Windows, OSX and Ubuntu:
 
 - Windows and OSX: [http://www.akaipro.com/kb/article/1616#os_32_or_64_bit](http://www.akaipro.com/kb/article/1616#os_32_or_64_bit)
 - Ubuntu: [http://askubuntu.com/a/41334](http://askubuntu.com/a/41334)
@@ -20,6 +21,7 @@ Please run the below commands from your command line interface
 
 ```
 conda install seaborn
-pip install folium
+conda install prophet
+conda install plotnine
 
 ```
