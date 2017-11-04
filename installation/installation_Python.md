@@ -26,7 +26,6 @@ PATH=~/anaconda3/bin:$PATH
 Please run the below commands from your command line interface
 
 ```
-conda install seaborn
-conda install prophet
-conda install plotnine
+conda config --append channels conda-forge
+conda install seaborn fbprophet plotnine
 ```
