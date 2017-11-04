@@ -16,6 +16,12 @@ We request you to check if your Operating System is 32 bit or 64 bit and downloa
 
 Please note that installing Anaconda is the **recommended** option for doing the workshop.
 
+## Adding Anaconda to your path
+Please add the following to your bash profile
+```
+PATH=~/anaconda3/bin:$PATH
+```
+
 ## Post Anaconda Installation
 Please run the below commands from your command line interface
 
@@ -23,5 +29,4 @@ Please run the below commands from your command line interface
 conda install seaborn
 conda install prophet
 conda install plotnine
-
 ```
